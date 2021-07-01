@@ -1,3 +1,18 @@
+//--------------------
+//Given an array nums of intergers, we need to find the maximum possible sum of elements of the array such that it is divisible by three
+
+//Input : nums = [3, 6, 5, 1, 8]
+//Ouput : 18
+
+// const arr = [3, 6, 5, 1, 8]
+
+// function findX(arr) {
+//   const total = arr.sort().reduce((x, y) => x + y) % 3
+
+//   return total
+// }
+// console.log(findX(arr))
+
 /*
 //The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 

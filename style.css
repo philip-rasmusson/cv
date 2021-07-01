@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DIN Alternate', sans-serif;
+}
+
+/* Global colors */
+
+.font-black {
+  color: black;
+}
+
+.font-grey {
+  color: #454545;
+}
+
+/* Title */
+
+.title-wrapper {}
+
+.title-wrapper h1 {}
+
+.title-wrapper h3 {}
+
+/* Img CSS */
+
+.title-img {}
+
+.title-img img {
+  width: 15vw;
+}
+
+/* Sidebar */
+
+.sidebar {}
+
+.contact-wrapper {}
+
+.contact-phone {}
+
+.contact-phone div {}
+
+.contact-phone h4 {}
+
+.contact-mail {}
+
+.contact-mail div {}
+
+.contact-mail h4 {}
+
+.contact-github {}
+
+.contact-github div {}
+
+.contact-github h4 {}
+
+.contact-linkedin {}
+
+.contact-linkedin div {}
+
+.contact-linkedin h4 {}
+
+.education-wrapper {}
+
+.education-wrapper h3 {}
+
+.education-wrapper div {}
+
+.education-wrapper div h4 {}
+
+.education-wrapper div p {}
+
+.competence-wrapper {}
+
+.competence-wrapper h3 {}
+
+.competence-wrapper ul {}
+
+.competence-wrapper ul li {}
+
+.main {}
+
+.profile-wrapper {}
+
+.profile-wrapper h3 {}
+
+.profile-wrapper p {}
+
+.project-wrapper {}
+
+.project-wrapper h3 {}
+
+.project-wrapper h4 {}
+
+.project-wrapper p {}
+
+.worklife-wrapper {}
+
+.worklife-wrapper h3 {}
+
+.worklife-wrapper h4 {}
+
+.worklife-wrapper p {}
+
+.worklife-wrapper ul {}
+
+.worklife-wrapper ul li {}
