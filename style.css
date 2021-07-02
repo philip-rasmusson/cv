@@ -5,6 +5,10 @@
   font-family: 'DIN Alternate', sans-serif;
 }
 
+body {
+  padding: 2rem;
+}
+
 /* Global colors */
 
 .font-black {
@@ -17,7 +21,10 @@
 
 /* Title */
 
-.title-wrapper {}
+.title-wrapper {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 
 .title-wrapper h1 {}
 
