@@ -1,6 +1,6 @@
 {
-  "homepage": "https://philip-rasmusson.github.io/etolog-se/",
-  "name": "etolog-se",
+  "homepage": "https://philip-rasmusson.github.io/cv/",
+  "name": "philip-rasmusson-cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

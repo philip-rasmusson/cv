@@ -25,15 +25,15 @@ export const MobileNavigation = () => {
 
   return (
     <div>
-      <div className='navbar-mobile-wrapper bg-color-green'>
-        <div className='navbar-mobile-wrapper-inner font-white'>
+      <div className='navbar-mobile-wrapper'>
+        <div className='navbar-mobile-wrapper-inner font-black'>
           <div className='navbar-mobile-logo'>LOGO</div>
           <div className={burgerAnimation('wrapper')} onClick={() => displayBurgerIcon()}>
             <div className={burgerAnimation('line-1')}></div>
             <div className={burgerAnimation('line-2')}></div>
             <div className={burgerAnimation('line-3')}></div>
           </div>
-          <div className='navbar-mobile-menu-wrapper bg-color-green' style={menuSlideIn()}>
+          <div className='navbar-mobile-menu-wrapper' style={menuSlideIn()}>
             {MenuItems()}
           </div>
         </div>

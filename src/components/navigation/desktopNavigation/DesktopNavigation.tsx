@@ -1,9 +1,9 @@
-import React from 'react'
+import { MenuItems } from '../MenuItems'
 
 export const DesktopNavigation = () => {
   return (
     <div>
-      <h1>tjo</h1>
+      {MenuItems()}
     </div>
   )
 }
