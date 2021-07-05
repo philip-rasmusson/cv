@@ -1,9 +1,9 @@
-import React from 'react'
+import './CompetenceDesktop.css'
 
 export const CompetenceDesktop = () => {
   return (
-    <div>
-
+    <div className="desktop-wrapper">
+      <h1>Balla Trazan Apansson</h1>
     </div>
   )
 }

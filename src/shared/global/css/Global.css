@@ -46,8 +46,13 @@ h2, h3, h4 {
 
 .page-wrapper {
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: 2rem auto auto auto auto auto 2rem;
+  grid-template-rows: 1;
+  grid-template-columns: 1;
+}
+
+.desktop-wrapper {
+  align-self: center;
+  justify-self: center;
 }
 
 @media screen and (max-width: 760px) {}

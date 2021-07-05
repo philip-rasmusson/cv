@@ -3,10 +3,6 @@
   font-size: 3rem;
 }
 
-.social-media-icon:visited {
-  color: initial;
-}
-
 .social-media-wrapper {
   grid-row: 2;
   grid-column: 4/5;
@@ -16,4 +12,10 @@
   width: 100%;
   max-width: 20rem;
   justify-content: space-evenly;
+}
+
+@media (max-width: 1000px) {
+  .social-media-icon {
+    font-size: 4vw;
+  }
 }

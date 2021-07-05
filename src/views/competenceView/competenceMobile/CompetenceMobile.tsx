@@ -1,4 +1,4 @@
-import React from 'react'
+import './CompetenceMobile.css'
 
 export const CompetenceMobile = () => {
   return (
