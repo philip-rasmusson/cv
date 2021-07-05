@@ -1,0 +1,19 @@
+.social-media-icon {
+  color: black;
+  font-size: 3rem;
+}
+
+.social-media-icon:visited {
+  color: initial;
+}
+
+.social-media-wrapper {
+  grid-row: 2;
+  grid-column: 4/5;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 20rem;
+  justify-content: space-evenly;
+}

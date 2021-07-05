@@ -1,4 +1,4 @@
-const infoMail = 'mailto:info@mail.se'
+const infoMail = 'mailto:rasmussonphilip@gmail.com'
 
 const GlobalData = {
   infoMail,

@@ -1,12 +1,18 @@
-const homeView = '/'
-const secondView = '/second'
+const aboutMeView = '/'
+const projectsView = '/projects'
+const competenceView = '/competence'
+const educationView = '/education'
+const worklifeView = '/worklife'
 
 const notFound = '/404'
 
 const RoutingPath = {
-  homeView,
+  aboutMeView,
   notFound,
-  secondView
+  projectsView,
+  competenceView,
+  educationView,
+  worklifeView
 }
 
 export default RoutingPath
