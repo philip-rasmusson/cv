@@ -1,0 +1,9 @@
+.footer-wrapper {
+  text-align: right;
+}
+
+.footer-wrapper h3 {
+  margin: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}

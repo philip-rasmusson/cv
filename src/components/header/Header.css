@@ -1,3 +1,34 @@
 .title-img img {
   width: 10rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border: black 5px solid;
 }
+
+.title-wrapper {
+  grid-column: 2/4;
+  grid-row: 1/4;
+  align-self: center;
+}
+
+.main-line {
+  border-bottom: black solid 5px;
+  grid-column: 1/-1;
+  grid-row: 3 / 3;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr 1fr 1fr 2rem;
+  grid-template-rows: repeat(3, 2.5rem);
+  grid-column: 1 / -1;
+  grid-row: 1 / 3;
+}
+
+.title-name {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+}
+
+.title-desc {}

@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+h2, h3, h4 {
+  letter-spacing: 2px;
+}
+
 /* Background colors */
 
 .bg-color-blue {
@@ -31,6 +35,13 @@
 
 .box-shadow {
   box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 760px) {}

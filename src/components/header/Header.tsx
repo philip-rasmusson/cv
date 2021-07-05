@@ -7,8 +7,8 @@ export const Header = () => {
     <div className="header">
       <div className="main-line"></div>
       <div className="title-wrapper">
-        <h1 className="font-upper">{textEnglish.titleName}</h1>
-        <h3 id="title-desc" className="font-upper">{textEnglish.titleDesc}</h3>
+        <h1 className="title-name font-upper">{textEnglish.titleName}</h1>
+        <h3 className="title-desc font-upper">{textEnglish.titleDesc}</h3>
       </div>
       <div className="title-img">
         <img src={headerImg} alt="Profile picture" />
