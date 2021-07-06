@@ -55,4 +55,11 @@ h2, h3, h4 {
   justify-self: center;
 }
 
+.social-media-info {
+  grid-row: 3;
+  grid-column: 4/5;
+  align-self: center;
+  justify-self: center;
+}
+
 @media screen and (max-width: 760px) {}

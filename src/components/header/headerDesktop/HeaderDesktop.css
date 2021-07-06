@@ -5,6 +5,7 @@
   top: 2rem;
   right: 2rem;
   border: black 5px solid;
+  border-radius: 10px;
 }
 
 .title-wrapper {
