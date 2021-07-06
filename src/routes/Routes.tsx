@@ -5,9 +5,11 @@ import { CompetenceView } from '../views/competenceView/CompetenceView'
 import { EducationView } from "../views/educationView/EducationView"
 import { ProjectsView } from "../views/projectsView/ProjectsView"
 import { WorklifeView } from "../views/worklifeView/WorklifeView"
+import { HomeView } from '../views/homeView/HomeView'
 import RoutingPath from './RoutingPath'
 import { Header } from '../components/header/Header'
 import { Footer } from "../components/footer/Footer"
+import { HomeViewDesktop } from '../views/homeView/homeViewDesktop/HomeViewDesktop'
 
 export const Routes = (props: { children?: React.ReactChild }) => {
   return (
@@ -16,6 +18,7 @@ export const Routes = (props: { children?: React.ReactChild }) => {
       <div className='wrapper'>
         <Header />
         <Switch>
+          <Route exact path={RoutingPath.homeView} component={HomeView} />
           <Route exact path={RoutingPath.aboutMeView} component={AboutMeView} />
           <Route exact path={RoutingPath.competenceView} component={CompetenceView} />
           <Route exact path={RoutingPath.educationView} component={EducationView} />

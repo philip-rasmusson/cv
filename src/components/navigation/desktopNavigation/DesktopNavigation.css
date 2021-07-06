@@ -14,3 +14,13 @@
   top: 8rem;
   left: 2rem;
 }
+
+.menu-items li {
+  cursor: pointer;
+}
+
+.menu-items li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
