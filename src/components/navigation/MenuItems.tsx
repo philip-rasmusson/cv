@@ -5,17 +5,33 @@ import '../../shared/global/css/Global.css'
 
 import RoutingPath from '../../routes/RoutingPath'
 import { menuItemsEnglish } from '../../data/MenuItemsEnglish'
+import { MenuItem } from './MenuItem'
 
 export const MenuItems = () => {
   const history = useHistory()
   return (
     <div>
       <ul className='menu-items'>
-        <li className='menu-item-1' onClick={() => history.push(RoutingPath.aboutMeView)}>{menuItemsEnglish.itemOne}</li>
-        <li className='menu-item-2' onClick={() => history.push(RoutingPath.projectsView)}>{menuItemsEnglish.itemTwo}</li>
-        <li className='menu-item-3' onClick={() => history.push(RoutingPath.competenceView)}>{menuItemsEnglish.itemThree}</li>
-        <li className='menu-item-4' onClick={() => history.push(RoutingPath.educationView)}>{menuItemsEnglish.itemFour}</li>
-        <li className='menu-item-5' onClick={() => history.push(RoutingPath.worklifeView)}>{menuItemsEnglish.itemFive}</li>
+        <MenuItem
+          link={RoutingPath.aboutMeView}
+          title={menuItemsEnglish.itemOne}
+        />
+        <MenuItem
+          link={RoutingPath.projectsView}
+          title={menuItemsEnglish.itemTwo}
+        />
+        <MenuItem
+          link={RoutingPath.competenceView}
+          title={menuItemsEnglish.itemThree}
+        />
+        <MenuItem
+          link={RoutingPath.educationView}
+          title={menuItemsEnglish.itemFour}
+        />
+        <MenuItem
+          link={RoutingPath.worklifeView}
+          title={menuItemsEnglish.itemFive}
+        />
       </ul>
     </div>
   )

@@ -26,3 +26,7 @@
   text-decoration-thickness: 3px;
   color: #000;
 }
+
+.menu-item-active {
+  text-decoration: underline;
+}
