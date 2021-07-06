@@ -6,6 +6,7 @@
   right: 2rem;
   border: black 5px solid;
   border-radius: 10px;
+  display: none;
 }
 
 .title-wrapper {

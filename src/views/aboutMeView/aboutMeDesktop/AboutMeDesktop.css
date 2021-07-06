@@ -1,0 +1,38 @@
+.aboutme-desktop-wrapper {
+  width: 80vw;
+  max-width: 50rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.aboutme-desktop-wrapper h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 200;
+  font-size: 2vw;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: justify;
+  align-self: center;
+  margin: auto 2rem;
+}
+
+.aboutme-desktop-wrapper img {
+  width: 20vw;
+  max-width: 15rem;
+  border: black 5px solid;
+  border-radius: 10px;
+  grid-column: 2;
+  margin: 0 2rem;
+}
+
+@media (min-width: 1000px) {
+  .aboutme-desktop-wrapper {}
+  .aboutme-desktop-wrapper h3 {
+    font-size: 22px;
+  }
+  .aboutme-desktop-wrapper img {}
+}

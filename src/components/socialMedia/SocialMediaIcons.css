@@ -5,7 +5,7 @@
 
 .social-media-wrapper {
   grid-row: 2/-1;
-  grid-column: 4/5;
+  grid-column: 5/6;
   justify-items: center;
   display: grid;
   grid-template-rows: auto 2rem;

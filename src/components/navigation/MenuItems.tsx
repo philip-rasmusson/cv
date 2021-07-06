@@ -10,7 +10,7 @@ export const MenuItems = () => {
   const history = useHistory()
   return (
     <div>
-      <ul className='font-grey menu-items'>
+      <ul className='menu-items'>
         <li className='menu-item-1' onClick={() => history.push(RoutingPath.aboutMeView)}>{menuItemsEnglish.itemOne}</li>
         <li className='menu-item-2' onClick={() => history.push(RoutingPath.projectsView)}>{menuItemsEnglish.itemTwo}</li>
         <li className='menu-item-3' onClick={() => history.push(RoutingPath.competenceView)}>{menuItemsEnglish.itemThree}</li>

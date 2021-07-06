@@ -17,10 +17,12 @@
 
 .menu-items li {
   cursor: pointer;
+  color: #636363;
 }
 
 .menu-items li:hover {
   cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 3px;
+  color: #000;
 }
