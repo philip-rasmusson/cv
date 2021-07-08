@@ -1,0 +1,5 @@
+.portfolio-desktop-wrapper {
+  display: grid;
+  width: 70vw;
+  background-color: aqua;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectsMobile = () => {
+export const PortfolioMobile = () => {
   return (
     <div>
 

@@ -17,7 +17,7 @@ export const MenuItems = () => {
           title={menuItemsEnglish.itemOne}
         />
         <MenuItem
-          link={RoutingPath.projectsView}
+          link={RoutingPath.portfoliView}
           title={menuItemsEnglish.itemTwo}
         />
         <MenuItem

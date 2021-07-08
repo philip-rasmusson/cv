@@ -1,6 +1,6 @@
 const homeView = '/'
 const aboutMeView = '/aboutme'
-const projectsView = '/projects'
+const portfoliView = '/portfolio'
 const competenceView = '/competence'
 const educationView = '/education'
 const worklifeView = '/worklife'
@@ -11,7 +11,7 @@ const RoutingPath = {
   homeView,
   aboutMeView,
   notFound,
-  projectsView,
+  portfoliView,
   competenceView,
   educationView,
   worklifeView
