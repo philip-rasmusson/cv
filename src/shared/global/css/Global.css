@@ -62,4 +62,11 @@ h2, h3, h4 {
   justify-self: center;
 }
 
-@media screen and (max-width: 760px) {}
+@media screen and (max-width: 760px) {
+  .wrapper {
+    height: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
