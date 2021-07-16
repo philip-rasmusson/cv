@@ -27,7 +27,7 @@ export const MobileNavigation = () => {
     <div>
       <div className='navbar-mobile-wrapper'>
         <div className='navbar-mobile-wrapper-inner font-black'>
-          <div className='navbar-mobile-logo'>LOGO</div>
+          <div className='navbar-mobile-logo'></div>
           <div className={burgerAnimation('wrapper')} onClick={() => displayBurgerIcon()}>
             <div className={burgerAnimation('line-1')}></div>
             <div className={burgerAnimation('line-2')}></div>

@@ -14,23 +14,15 @@ export const MenuItems = () => {
       <ul className='menu-items'>
         <MenuItem
           link={RoutingPath.aboutMeView}
-          title={menuItemsEnglish.itemOne}
+          title={menuItemsEnglish.omMig}
         />
         <MenuItem
           link={RoutingPath.portfoliView}
-          title={menuItemsEnglish.itemTwo}
-        />
-        <MenuItem
-          link={RoutingPath.competenceView}
-          title={menuItemsEnglish.itemThree}
+          title={menuItemsEnglish.portfolio}
         />
         <MenuItem
           link={RoutingPath.educationView}
-          title={menuItemsEnglish.itemFour}
-        />
-        <MenuItem
-          link={RoutingPath.worklifeView}
-          title={menuItemsEnglish.itemFive}
+          title={menuItemsEnglish.utbildningArbete}
         />
       </ul>
     </div>

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'DIN Alternate', sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -46,8 +46,8 @@ h2, h3, h4 {
 
 .page-wrapper {
   display: grid;
-  grid-template-rows: 1;
-  grid-template-columns: 1;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
 }
 
 .desktop-wrapper {

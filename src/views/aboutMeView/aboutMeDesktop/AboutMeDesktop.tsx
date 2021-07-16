@@ -8,8 +8,8 @@ export const AboutMeDesktop = () => {
       <div className="desktop-wrapper">
         <div className="aboutme-desktop-wrapper">
           <h3>
-            {AboutMeDataEnglish.aboutMe}<br /><br />
-            {AboutMeDataEnglish.aboutMe2}
+            {AboutMeDataEnglish.omMig}<br /><br />
+            {AboutMeDataEnglish.omMig2}
           </h3>
           <img src={headerImg} alt="Profile picture" />
 

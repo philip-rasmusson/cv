@@ -1,13 +1,13 @@
-const itemOne = 'about me'
-const itemTwo = 'projects'
-const itemThree = 'competence'
-const itemFour = 'education'
-const itemFive = 'worklife'
+const aboutme = 'about me'
+const portfolio = 'portfolio'
+const educationWorklife = 'education & worklife'
+const omMig = 'om mig'
+const utbildningArbete = 'utbildning och arbetsliv'
 
 export const menuItemsEnglish = {
-  itemOne,
-  itemTwo,
-  itemThree,
-  itemFour,
-  itemFive
+  aboutme,
+  portfolio,
+  educationWorklife,
+  omMig,
+  utbildningArbete
 }
