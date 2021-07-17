@@ -14,8 +14,8 @@ export const PortfolioDesktop = () => {
             <p>Designade och byggde på egen hand en webbapplikation i ReactJS, MongoDB och NodeJS, med versionhantering via Github.Backend styrs av en adminpanel med inlogg där man kan lägga till, ta bort och redigera etologer.</p>
           </div>
           <div className="portfolio-desktop-div-2">
-            <h3>HTML/CSS/JS</h3>
-            <p>En egendesignad, fullt responsiv webbsida som jag främst använder för att testa funktioner och tricks i CSS och JavaScript. Uppdateras kontinuerligt.</p>
+            <h3>COFFEE MOCK-UP</h3>
+            <p>En egendesignad, fullt responsiv webbsida som jag främst använder för att testa funktioner och tricks i HTML, CSS och JavaScript. Uppdateras kontinuerligt.</p>
           </div>
           <div className="portfolio-desktop-div-3">
             <h3>FOTO</h3>

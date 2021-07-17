@@ -30,6 +30,12 @@
   justify-self: right;
 }
 
+.about-me-desktop-competence-wrapper {
+  display: none;
+}
+
+.about-me-desktop-competence-wrapper-items {}
+
 @media (min-width: 1000px) {
   .aboutme-desktop-wrapper {}
   .aboutme-desktop-wrapper h3 {

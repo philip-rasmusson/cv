@@ -8,7 +8,7 @@ export const AboutMeMobile = () => {
       {/* <div className="page-wrapper-mobile"> */}
       <div className="mobile-wrapper">
         <div className="aboutme-mobile-wrapper">
-          <h1>Hej!</h1>
+          <h1>{AboutMeDataEnglish.hej}</h1>
           <h3>
             {AboutMeDataEnglish.omMig}<br /><br />
             {AboutMeDataEnglish.omMig2}

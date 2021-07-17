@@ -1,0 +1,20 @@
+.portfolio-mobile-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 8vw;
+  width: 80vw;
+  margin: auto;
+}
+
+.portfolio-mobile-wrapper h3 {
+  font-size: 4vw;
+}
+
+.portfolio-mobile-wrapper p {
+  font-size: 3vw;
+}
+
+.portfolio-mobile-div, .portfolio-mobile-title {
+  grid-column: 1/-1;
+  align-self: center;
+}

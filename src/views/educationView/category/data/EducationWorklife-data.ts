@@ -9,14 +9,16 @@ const campusMolndalText = `.NET / webbutveckling`
 
 //WORKLIFE
 const casinoCosmopolTitle = `Casino Cosmopol  |  2007 - 2012`
-const casinoCosmopolYears = ``
+const casinoCosmopolTitleMobile = `Casino Cosmopol`
+const casinoCosmopolYears = `2007 - 2012`
 const casinoCosmopolDesc = `BARTENDER`
 const casinoCosmopolLi1 = ` Höga krav på ansvarstagande och service`
 const casinoCosmopolLi2 = `Fokus på stesstålighet och kundbemötande`
 const casinoCosmopolLi3 = `Ingående säkerhetskontroller innan anställning`
 
 const esoftTitle = `Esoft Systems AB  |  2007 - 2021`
-const esoftYears = ``
+const esoftTitleMobile = `Esoft Systems AB`
+const esoftYears = `2007 - 2021`
 const esoftDesc = `FOTOGRAF/UTBILDARE`
 const esoftLi1 = `Ansvar för utbildning av nya fotografer`
 const esoftLi2 = `Höga krav på självständigt arbete och punktlighet, företagets ansikte utåt gentemot både mäklare och husägare`
@@ -34,11 +36,13 @@ export const EducationWorklifeData = {
   casinoCosmopolLi2,
   casinoCosmopolLi3,
   casinoCosmopolTitle,
+  casinoCosmopolTitleMobile,
   casinoCosmopolYears,
   esoftDesc,
   esoftLi1,
   esoftLi2,
   esoftLi3,
   esoftTitle,
+  esoftTitleMobile,
   esoftYears
 }

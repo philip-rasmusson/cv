@@ -1,0 +1,38 @@
+.education-worklife-mobile-wrapper {
+  display: grid;
+  /* grid-template-rows: repeat(1, 1fr); */
+  /* grid-template-columns: repeat(2, 1fr); */
+  width: 80vw;
+  margin: auto;
+  grid-gap: 10vw;
+  /* background-color: rgb(173, 173, 173); */
+}
+
+.education-worklife-mobile-education-title, .education-worklife-mobile-worklife-title {
+  font-size: 7vw;
+  letter-spacing: 0.5rem;
+}
+
+.education-worklife-mobile-education-wrapper div, .education-worklife-mobile-worklife-wrapper div {
+  margin-top: 5vw;
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
+.education-worklife-mobile-education-wrapper {
+  text-align: left;
+  justify-self: left;
+}
+
+.education-worklife-mobile-worklife-wrapper {
+  border-top: #454545 solid 1px;
+  padding-top: 10vw;
+}
+
+.education-worklife-mobile-category-wrapper h4 {
+  font-weight: 400;
+}
+
+.education-worklife-mobile-category-wrapper li {
+  margin: 3vw 0 0 6vw;
+}
