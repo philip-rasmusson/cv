@@ -7,6 +7,7 @@ export const MobileNavigation = () => {
 
 
   const [displayNavbar, setDisplayNavbar] = useState<any>('navbar-mobile-menu-wrapper')
+
   const showNavbar = () => {
     displayNavbar === 'navbar-mobile-menu-wrapper'
       ? setDisplayNavbar('navbar-mobile-menu-wrapper-active')

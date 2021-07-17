@@ -8,8 +8,8 @@ export const MenuItem = (props: { link?: any, title?: any }) => {
   const [cn, setCn] = useState('')
 
   const activeLink = (link: any) => {
-
     history.push(link)
+
   }
 
   return (
