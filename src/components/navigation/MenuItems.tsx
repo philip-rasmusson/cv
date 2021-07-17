@@ -12,18 +12,24 @@ export const MenuItems = () => {
   return (
     <>
       <ul className='menu-items'>
-        <MenuItem
-          link={RoutingPath.aboutMeView}
-          title={menuItemsEnglish.omMig}
-        />
-        <MenuItem
-          link={RoutingPath.portfoliView}
-          title={menuItemsEnglish.portfolio}
-        />
-        <MenuItem
-          link={RoutingPath.educationView}
-          title={menuItemsEnglish.utbildningArbete}
-        />
+        <li>
+          <MenuItem
+            link={RoutingPath.aboutMeView}
+            title={menuItemsEnglish.omMig}
+          />
+        </li>
+        <li>
+          <MenuItem
+            link={RoutingPath.portfoliView}
+            title={menuItemsEnglish.portfolio}
+          />
+        </li>
+        <li>
+          <MenuItem
+            link={RoutingPath.educationView}
+            title={menuItemsEnglish.utbildningArbete}
+          />
+        </li>
       </ul>
     </>
   )

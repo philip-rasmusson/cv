@@ -3,9 +3,14 @@
   font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  color: #4d4d4d;
 }
 
-h2, h3, h4 {
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 

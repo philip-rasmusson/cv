@@ -6,23 +6,29 @@ import { MenuItems } from "../MenuItems"
 export const MobileNavigation = () => {
 
 
+  const [displayNavbar, setDisplayNavbar] = useState<any>('navbar-mobile-menu-wrapper')
+  const showNavbar = () => {
+    displayNavbar === 'navbar-mobile-menu-wrapper'
+      ? setDisplayNavbar('navbar-mobile-menu-wrapper-active')
+      : setDisplayNavbar('navbar-mobile-menu-wrapper')
+  }
+
   return (
     <>
-      <div className='navbar-mobile-wrapper'>
+      <div className="burger" onClick={() => showNavbar()}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+      </div>
+      <div className={displayNavbar}>
         {MenuItems()}
       </div>
     </>
   )
 }
 
-        // <div className='navbar-mobile-wrapper-inner font-black'>
-        //   <div className='navbar-mobile-logo'></div>
-        //   <div className={burgerAnimation('wrapper')} onClick={() => displayBurgerIcon()}>
-        //     <div className={burgerAnimation('line-1')}></div>
-        //     <div className={burgerAnimation('line-2')}></div>
-        //     <div className={burgerAnimation('line-3')}></div>
-        //   </div>
-        //   <div className='navbar-mobile-menu-wrapper' style={menuSlideIn()}>
-        //     {MenuItems()}
-        //   </div>
-        // </div>
+    // <>
+    //   <div className='navbar-mobile-wrapper'>
+    //     {MenuItems()}
+    //   </div>
+    // </>

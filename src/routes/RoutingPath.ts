@@ -1,5 +1,5 @@
-const homeView = '/'
-const aboutMeView = '/aboutme'
+const homeView = '/home'
+const aboutMeView = '/cv'
 const portfoliView = '/portfolio'
 const competenceView = '/competence'
 const educationView = '/education'
