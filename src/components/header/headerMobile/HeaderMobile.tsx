@@ -12,9 +12,6 @@ export const HeaderMobile = () => {
         <h1 className="title-name-mobile font-upper">{textEnglish.titleName}</h1>
         <h3 className="title-desc-mobile font-upper">{textEnglish.titleDescSwe}</h3>
       </div>
-      <div className="title-img-mobile">
-        <img src={headerImg} alt="Profile picture" />
-      </div>
       <div className="social-media-mobile-wrapper">
         {SocialMediaIcons()}
       </div>
