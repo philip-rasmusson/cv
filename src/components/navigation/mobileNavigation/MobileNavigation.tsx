@@ -7,11 +7,11 @@ export const MobileNavigation = () => {
 
 
   return (
-    <div>
-      <div className='navbar-mobile-wrapper hidden'>
+    <>
+      <div className='navbar-mobile-wrapper'>
         {MenuItems()}
       </div>
-    </div>
+    </>
   )
 }
 

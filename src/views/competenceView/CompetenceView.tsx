@@ -10,5 +10,5 @@ export const CompetenceView = () => {
   const toggleDesktopOrMobileViewForNavbar = () => {
     return width <= DesktopMobileBreakpoint ? <CompetenceMobile /> : <CompetenceDesktop />
   }
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }

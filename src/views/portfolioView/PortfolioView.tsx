@@ -9,7 +9,7 @@ export const PortfolioView = () => {
   const toggleDesktopOrMobileViewForNavbar = () => {
     return width <= DesktopMobileBreakpoint ? <PortfolioMobile /> : <PortfolioDesktop />
   }
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }
 
 

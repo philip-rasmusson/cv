@@ -15,7 +15,7 @@ export const HeaderMobile = () => {
       <div className="title-img-mobile">
         <img src={headerImg} alt="Profile picture" />
       </div>
-      <div className="social-media-mobile-wrapper hidden">
+      <div className="social-media-mobile-wrapper">
         {SocialMediaIcons()}
       </div>
     </div>

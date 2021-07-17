@@ -13,5 +13,5 @@ export const Header = () => {
     return width <= DesktopMobileBreakpoint ? <HeaderMobile /> : <HeaderDesktop />
   }
 
-  return <div>{toggleDesktopOrMobileViewForDesktop()}</div>
+  return <>{toggleDesktopOrMobileViewForDesktop()}</>
 }

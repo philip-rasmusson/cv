@@ -10,5 +10,5 @@ export const WorklifeView = () => {
   const toggleDesktopOrMobileViewForNavbar = () => {
     return width <= DesktopMobileBreakpoint ? <WorklifeMobile /> : <WorklifeDesktop />
   }
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }

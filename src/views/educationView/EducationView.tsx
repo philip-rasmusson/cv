@@ -10,5 +10,5 @@ export const EducationView = () => {
   const toggleDesktopOrMobileViewForNavbar = () => {
     return width <= DesktopMobileBreakpoint ? < EducationMobile /> : <EducationDesktop />
   }
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }

@@ -10,7 +10,7 @@ import { MenuItem } from './MenuItem'
 export const MenuItems = () => {
   const history = useHistory()
   return (
-    <div>
+    <>
       <ul className='menu-items'>
         <MenuItem
           link={RoutingPath.aboutMeView}
@@ -25,6 +25,6 @@ export const MenuItems = () => {
           title={menuItemsEnglish.utbildningArbete}
         />
       </ul>
-    </div>
+    </>
   )
 }

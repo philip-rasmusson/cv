@@ -1,6 +1,9 @@
 .navbar-mobile-wrapper {
+  position: absolute;
+  top: 30vw;
+  text-align: right;
   width: 100vw;
-  overflow-x: hidden;
+  display: none;
 }
 
 .navbar-mobile-logo {

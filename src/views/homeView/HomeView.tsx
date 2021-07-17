@@ -12,5 +12,5 @@ export const HomeView = () => {
     return width <= DesktopMobileBreakpoint ? <HomeViewMobile /> : <HomeViewDesktop />
   }
 
-  return <div>{toggleDesktopOrMobileViewForNavbar()}</div>
+  return <>{toggleDesktopOrMobileViewForNavbar()}</>
 }

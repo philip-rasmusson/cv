@@ -10,8 +10,8 @@
   display: grid;
   grid-template-rows: auto 2rem;
   grid-template-columns: repeat(3, auto);
-  /* width: 100%;
-  max-width: 20rem; */
+  width: 100%;
+  max-width: 20rem;
 }
 
 .social-media-info {
@@ -23,6 +23,17 @@
 
 @media (max-width: 1000px) {
   .social-media-icon {
-    font-size: 4vw;
+    font-size: 7vw;
+    color: cadetblue;
+  }
+  .social-media-mobile-wrapper {
+    grid-row: 1;
+    grid-column: 7/-1;
+    align-self: flex-end;
+    justify-self: center;
+    width: 100%;
+    display: none;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
