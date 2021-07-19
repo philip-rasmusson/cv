@@ -12,6 +12,7 @@ import { Footer } from "../components/footer/Footer"
 import { HomeViewDesktop } from '../views/homeView/homeViewDesktop/HomeViewDesktop'
 
 export const Routes = (props: { children?: React.ReactChild }) => {
+
   return (
     <Router>
       {props.children}

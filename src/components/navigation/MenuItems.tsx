@@ -1,6 +1,5 @@
 import { useHistory } from 'react-router-dom'
 
-
 import '../../shared/global/css/Global.css'
 
 import RoutingPath from '../../routes/RoutingPath'

@@ -5,6 +5,7 @@
   justify-self: right;
   align-self: center;
   margin: auto 1rem;
+  display: none;
 }
 
 .footer-wrapper h3 {

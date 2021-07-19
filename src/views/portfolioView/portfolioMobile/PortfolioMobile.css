@@ -1,7 +1,7 @@
 .portfolio-mobile-wrapper {
   display: grid;
   grid-template-columns: auto;
-  grid-gap: 8vw;
+  grid-gap: 5vw;
   width: 80vw;
   margin: auto;
 }
@@ -12,6 +12,13 @@
 
 .portfolio-mobile-wrapper p {
   font-size: 3vw;
+}
+
+.portfolio-mobile-wrapper div {
+  border: #454545 solid 1px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .portfolio-mobile-div, .portfolio-mobile-title {

@@ -3,7 +3,9 @@ import { Category } from '../category/Category'
 import { EducationWorklifeData } from '../category/data/EducationWorklife-data'
 
 
+
 export const EducationMobile = () => {
+
   return (
 
     <div className="page-wrapper">
