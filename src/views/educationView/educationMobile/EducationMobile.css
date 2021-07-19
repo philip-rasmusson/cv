@@ -16,12 +16,12 @@
   grid-gap: 0.5rem;
 }
 
-.education-worklife-mobile-education-wrapper {
+.education-worklife-mobile-worklife-wrapper {
   text-align: left;
   justify-self: left;
 }
 
-.education-worklife-mobile-worklife-wrapper {
+.education-worklife-mobile-education-wrapper {
   border-top: #454545 solid 1px;
   padding-top: 10vw;
 }
@@ -32,4 +32,10 @@
 
 .education-worklife-mobile-category-wrapper li {
   margin: 3vw 0 0 6vw;
+}
+
+.education-worklife-mobile-category-grades-link {
+  font-size: smaller;
+  font-style: italic;
+  text-decoration: underline;
 }

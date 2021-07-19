@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 
-.portfolio-mobile-div, .portfolio-mobile-title {
+.portfolio-mobile-wrapper div, .portfolio-mobile-title {
   grid-column: 1/-1;
   align-self: center;
 }
