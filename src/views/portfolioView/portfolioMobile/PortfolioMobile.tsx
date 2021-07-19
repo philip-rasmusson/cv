@@ -21,11 +21,11 @@ export const PortfolioMobile = () => {
             <h3>COFFEE MOCK-UP</h3>
             <p>En egendesignad, fullt responsiv webbsida som jag främst använder för att testa funktioner och tricks i HTML, CSS och JavaScript. Uppdateras kontinuerligt.</p>
           </div>
-          <div className="portfolio-mobile-div" onClick={() => history.push(RoutingPath.aboutMeView)}>
+          <div className="portfolio-mobile-div" onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719573144867')}>
             <h3>FOTO</h3>
             <p>Ett urval av fotografier jag har tagit under min tid som yrkesfotograf</p>
           </div>
-          <div className="portfolio-mobile-div" onClick={() => history.push(RoutingPath.aboutMeView)}>
+          <div className="portfolio-mobile-div" onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719560435103')}>
             <h3>KONSTVERK</h3>
             <p>Ett urval av tavlor och illustrationer som jag har gjort.</p>
           </div>
