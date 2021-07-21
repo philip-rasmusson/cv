@@ -7,18 +7,18 @@ import { EducationWorklifeData } from '../category/data/EducationWorklife-data'
 export const EducationMobile = () => {
 
   const [showGrades, setShowGrades] = useState('none')
-  const [gradesLink, setGradesLink] = useState('Klicka här för att se kurser och betyg >>')
+  const [gradesLink, setGradesLink] = useState('Klicka här för att se kurser och betyg')
 
   const toggleGrades = () => {
     showGrades === 'none'
-      ? setShowGrades('inline')
+      ? setShowGrades('grid')
       : setShowGrades('none')
     toggleGradesLink()
   }
   const toggleGradesLink = () => {
     showGrades === 'none'
-      ? setGradesLink('Klicka här för att dölja kurser och betyg <<')
-      : setGradesLink('Klicka här för att se kurser och betyg >>')
+      ? setGradesLink('Klicka här för att dölja kurser och betyg')
+      : setGradesLink('Klicka här för att se kurser och betyg')
   }
 
   return (
@@ -62,9 +62,18 @@ export const EducationMobile = () => {
                   {gradesLink}
                 </p>
                 <div className="education-worklife-mobile-category-grades-wrapper" style={{ display: showGrades }}>
-                  <p>
-                    här är betygen
-                  </p>
+                  <p className="course1">Objektorienterad programmering i C#</p>
+                  <p className="grade1">VG</p>
+                  <p className="course2">Objektorienterad arkitektur i C#</p>
+                  <p className="grade2">VG</p>
+                  <p className="course3">Kvalitetssäkring och testdriven utveckling i C#</p>
+                  <p className="grade3">VG</p>
+                  <p className="course4">Personlig- och professionell utveckling</p>
+                  <p className="grade4">VG</p>
+                  <p className="course5">Webbramverk ReacjJS</p>
+                  <p className="grade5">VG</p>
+                  <p className="course6">Agil mjukvaruutveckling/Scrum</p>
+                  <p className="grade6">VG</p>
                 </div>
               </div>
               <div>

@@ -39,3 +39,69 @@
   font-style: italic;
   text-decoration: underline;
 }
+
+.education-worklife-mobile-category-grades-wrapper p {
+  align-self: center;
+  padding: 0.5rem;
+}
+
+.course1 {
+  border-top: black solid 1px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.grade1 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.course2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.grade2 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.course3 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.grade3 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.course4 {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.grade4 {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.course5 {
+  grid-row: 5;
+  grid-column: 1;
+}
+
+.grade5 {
+  grid-row: 5;
+  grid-column: 2;
+}
+
+.course6 {
+  border-bottom: black solid 1px;
+  grid-row: 6;
+  grid-column: 1;
+}
+
+.grade6 {
+  grid-row: 6;
+}
