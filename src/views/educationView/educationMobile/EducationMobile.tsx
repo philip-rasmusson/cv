@@ -62,18 +62,18 @@ export const EducationMobile = () => {
                   {gradesLink}
                 </p>
                 <div className="education-worklife-mobile-category-grades-wrapper" style={{ display: showGrades }}>
-                  <p className="course1">Objektorienterad programmering i C#</p>
-                  <p className="grade1">VG</p>
-                  <p className="course2">Objektorienterad arkitektur i C#</p>
-                  <p className="grade2">VG</p>
-                  <p className="course3">Kvalitetssäkring och testdriven utveckling i C#</p>
-                  <p className="grade3">VG</p>
-                  <p className="course4">Personlig- och professionell utveckling</p>
-                  <p className="grade4">VG</p>
-                  <p className="course5">Webbramverk ReacjJS</p>
-                  <p className="grade5">VG</p>
-                  <p className="course6">Agil mjukvaruutveckling/Scrum</p>
-                  <p className="grade6">VG</p>
+                  <p className="course1-mobile">Objektorienterad programmering i C#</p>
+                  <p className="grade1-mobile">VG</p>
+                  <p className="course2-mobile">Objektorienterad arkitektur i C#</p>
+                  <p className="grade2-mobile">VG</p>
+                  <p className="course3-mobile">Kvalitetssäkring och testdriven utveckling i C#</p>
+                  <p className="grade3-mobile">VG</p>
+                  <p className="course4-mobile">Personlig- och professionell utveckling</p>
+                  <p className="grade4-mobile">VG</p>
+                  <p className="course5-mobile">Webbramverk ReacjJS</p>
+                  <p className="grade5-mobile">VG</p>
+                  <p className="course6-mobile">Agil mjukvaruutveckling/Scrum</p>
+                  <p className="grade6-mobile">VG</p>
                 </div>
               </div>
               <div>
