@@ -88,18 +88,22 @@
   background-color: #454545;
   margin: 0.25rem;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transition: ease-in-out 1s;
+  -webkit-transition: ease-in-out 1s;
 }
 
 .burger-active .line3 {
   position: relative;
   top: 0;
   transition: ease-in-out 1s;
+  -webkit-transition: ease-in-out 1s;
   width: 2rem;
   height: 0.25rem;
   background-color: #454545;
   margin: 0.25rem;
   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .burger-active .line2 {

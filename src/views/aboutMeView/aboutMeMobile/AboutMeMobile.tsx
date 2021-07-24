@@ -15,23 +15,22 @@ export const AboutMeMobile = () => {
           </h3>
           <img src={headerImg} alt="Profile picture" />
           <div className="about-me-mobile-competence-wrapper">
-            <h3>huvudsakliga kompetenser</h3>
+            <h3>{AboutMeDataEnglish.mainCompetence}</h3>
             <div className="about-me-mobile-competence-wrapper-items">
-
-              <p>HTML/CSS</p>
-              <p>JavaScript</p>
-              <p>ReactJS</p>
-              <p>NodeJS</p>
-              <p>C# / .NET</p>
-              <p>Entity</p>
-              <p>SQL</p>
-              <p>MongoDB</p>
-              <p>Git</p>
-              <p>Scrum</p>
-              <p>Webdesign</p>
-              <p>Adobe CC</p>
-              <p>Svenska </p>
-              <p>Engelska</p>
+              <p>{AboutMeDataEnglish.htmlCSS}</p>
+              <p>{AboutMeDataEnglish.javascript}</p>
+              <p>{AboutMeDataEnglish.react}</p>
+              <p>{AboutMeDataEnglish.nodejs}</p>
+              <p>{AboutMeDataEnglish.csharp}</p>
+              <p>{AboutMeDataEnglish.entity}</p>
+              <p>{AboutMeDataEnglish.sql}</p>
+              <p>{AboutMeDataEnglish.mongodb}</p>
+              <p>{AboutMeDataEnglish.git}</p>
+              <p>{AboutMeDataEnglish.scrum}</p>
+              <p>{AboutMeDataEnglish.webdesign}</p>
+              <p>{AboutMeDataEnglish.adobe}</p>
+              <p>{AboutMeDataEnglish.swedish}</p>
+              <p>{AboutMeDataEnglish.english}</p>
             </div>
           </div>
         </div>

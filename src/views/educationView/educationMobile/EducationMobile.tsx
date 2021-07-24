@@ -27,7 +27,7 @@ export const EducationMobile = () => {
       <div className="mobile-wrapper">
         <div className="education-worklife-mobile-wrapper">
           <div className="education-worklife-mobile-worklife-wrapper">
-            <h2 className="education-worklife-mobile-worklife-title font-upper">arbetsliv</h2>
+            <h2 className="education-worklife-mobile-worklife-title font-upper">{EducationWorklifeData.arbetsliv}</h2>
             <div className="education-worklife-mobile-category-wrapper">
               <div>
                 <h3>{EducationWorklifeData.esoftTitleMobile}</h3>
@@ -52,7 +52,7 @@ export const EducationMobile = () => {
             </div>
           </div>
           <div className="education-worklife-mobile-education-wrapper">
-            <h2 className="education-worklife-mobile-education-title font-upper">utbildning</h2>
+            <h2 className="education-worklife-mobile-education-title font-upper">{EducationWorklifeData.utbildning}</h2>
             <div className="education-worklife-mobile-category-wrapper">
               <div>
                 <h3>{EducationWorklifeData.campusMolndalTitle}</h3>
@@ -62,18 +62,18 @@ export const EducationMobile = () => {
                   {gradesLink}
                 </p>
                 <div className="education-worklife-mobile-category-grades-wrapper" style={{ display: showGrades }}>
-                  <p className="course1-mobile">Objektorienterad programmering i C#</p>
-                  <p className="grade1-mobile">VG</p>
-                  <p className="course2-mobile">Objektorienterad arkitektur i C#</p>
-                  <p className="grade2-mobile">VG</p>
-                  <p className="course3-mobile">Kvalitetssäkring och testdriven utveckling i C#</p>
-                  <p className="grade3-mobile">VG</p>
-                  <p className="course4-mobile">Personlig- och professionell utveckling</p>
-                  <p className="grade4-mobile">VG</p>
-                  <p className="course5-mobile">Webbramverk ReacjJS</p>
-                  <p className="grade5-mobile">VG</p>
-                  <p className="course6-mobile">Agil mjukvaruutveckling/Scrum</p>
-                  <p className="grade6-mobile">VG</p>
+                  <p className="course1-desktop">{EducationWorklifeData.course1}</p>
+                  <p className="grade1-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="course2-desktop">{EducationWorklifeData.course2}</p>
+                  <p className="grade2-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="course3-desktop">{EducationWorklifeData.course3}</p>
+                  <p className="grade3-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="course4-desktop">P{EducationWorklifeData.course4}</p>
+                  <p className="grade4-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="course5-desktop">{EducationWorklifeData.course5}</p>
+                  <p className="grade5-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="course6-desktop">{EducationWorklifeData.course6}</p>
+                  <p className="grade6-desktop">{EducationWorklifeData.gradeVG}</p>
                 </div>
               </div>
               <div>

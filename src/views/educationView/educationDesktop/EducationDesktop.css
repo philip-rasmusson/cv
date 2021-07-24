@@ -65,11 +65,20 @@
   font-size: smaller;
   font-style: italic;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.education-worklife-desktop-category-grades-wrapper {
+  /* border: #454545 solid 1px;
+  padding: 1rem;
+  border-radius: 1rem; */
+  max-width: 20rem;
 }
 
 .education-worklife-desktop-category-grades-wrapper p {
   align-self: center;
-  padding: 0.5rem;
+  padding: 0.25rem;
+  font-size: smaller;
 }
 
 .course1-desktop {

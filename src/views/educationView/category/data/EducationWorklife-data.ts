@@ -1,4 +1,6 @@
 //EDUCATION
+const utbildning = 'utbildning'
+
 const studioblueTitle = `Studio Blue`
 const studioblueYears = '2004 -2006'
 const studioblueText = `Musikproduktion och ljudteknik`
@@ -8,6 +10,8 @@ const campusMolndalYears = ` Augusti 2020 - juni 2022`
 const campusMolndalText = `.NET / webbutveckling`
 
 //WORKLIFE
+const arbetsliv = 'arbetsliv'
+
 const casinoCosmopolTitle = `Casino Cosmopol  |  2007 - 2012`
 const casinoCosmopolTitleMobile = `Casino Cosmopol`
 const casinoCosmopolYears = `2007 - 2012`
@@ -23,6 +27,15 @@ const esoftDesc = `FOTOGRAF/UTBILDARE`
 const esoftLi1 = `Ansvar för utbildning av nya fotografer`
 const esoftLi2 = `Höga krav på självständigt arbete och punktlighet, företagets ansikte utåt gentemot både mäklare och husägare`
 const esoftLi3 = `Starkt fokus på kundkontakt och krav på ett konstant professionellt bemötande`
+
+const course1 = 'Objektorienterad programmering i C#'
+const gradeVG = 'VG'
+const course2 = 'Objektorienterad arkitektur i C#'
+const course3 = 'Kvalitetssäkring och testdriven utveckling i C#'
+const course4 = 'Personlig- och professionell utveckling'
+const course5 = 'Webbramverk ReactJS'
+const course6 = 'Agil mjukvaruutveckling/Scrum'
+
 
 export const EducationWorklifeData = {
   studioblueText,
@@ -44,5 +57,14 @@ export const EducationWorklifeData = {
   esoftLi3,
   esoftTitle,
   esoftTitleMobile,
-  esoftYears
+  esoftYears,
+  course1,
+  course2,
+  course3,
+  course4,
+  course5,
+  course6,
+  gradeVG,
+  utbildning,
+  arbetsliv
 }
