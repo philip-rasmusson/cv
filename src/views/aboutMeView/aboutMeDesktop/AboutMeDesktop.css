@@ -62,24 +62,36 @@
   cursor: pointer;
 }
 
+.about-me-desktop-competence-wrapper-items p:hover {
+  text-decoration: underline;
+}
+
 .about-me-desktop-competence-wrapper-items p:active {
   font-weight: bold;
 }
 
 .about-me-desktop-icon-wrapper {
   display: grid;
+  height: 20rem;
 }
 
 .about-me-desktop-icon {
   border: none;
   grid-row: 1;
   grid-column: 1;
-  max-width: 10rem;
+  width: 10rem;
   justify-self: center;
+  align-self: center;
+  margin: 1rem auto;
 }
 
 .about-me-desktop-icon-wrapper p {
   grid-row: 2;
+  justify-self: center;
+  font-style: italic;
+  cursor: pointer;
+  font-size: smaller;
+  text-decoration: underline;
 }
 
 @media (min-width: 1000px) {
