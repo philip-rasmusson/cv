@@ -36,6 +36,9 @@ const course4 = 'Personlig- och professionell utveckling'
 const course5 = 'Webbramverk ReactJS'
 const course6 = 'Agil mjukvaruutveckling/Scrum'
 
+const gradesLinkInitial = 'Klicka här för att se kurser och betyg'
+const gradesLinkSwitched = 'Klicka här för att dölja kurser och betyg'
+
 
 export const EducationWorklifeData = {
   studioblueText,
@@ -66,5 +69,7 @@ export const EducationWorklifeData = {
   course6,
   gradeVG,
   utbildning,
-  arbetsliv
+  arbetsliv,
+  gradesLinkInitial,
+  gradesLinkSwitched
 }

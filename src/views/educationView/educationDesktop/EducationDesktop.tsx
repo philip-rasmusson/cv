@@ -2,8 +2,9 @@ import './EducationDesktop.css'
 import { EducationWorklifeData } from '../category/data/EducationWorklife-data'
 import { useState } from 'react'
 export const EducationDesktop = () => {
+
   const [showGrades, setShowGrades] = useState('none')
-  const [gradesLink, setGradesLink] = useState('Klicka här för att se kurser och betyg')
+  const [gradesLink, setGradesLink] = useState(EducationWorklifeData.gradesLinkInitial)
 
   const toggleGrades = () => {
     showGrades === 'none'
@@ -13,8 +14,8 @@ export const EducationDesktop = () => {
   }
   const toggleGradesLink = () => {
     showGrades === 'none'
-      ? setGradesLink('Klicka här för att dölja kurser och betyg')
-      : setGradesLink('Klicka här för att se kurser och betyg')
+      ? setGradesLink(EducationWorklifeData.gradesLinkSwitched)
+      : setGradesLink(EducationWorklifeData.gradesLinkInitial)
   }
 
   return (

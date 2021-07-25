@@ -13,8 +13,13 @@
   cursor: pointer;
 }
 
+.portfolio-desktop-wrapper div:hover {
+  background-color: #f1f1f1;
+}
+
 .portfolio-desktop-title {
   grid-row: 1;
+  text-transform: uppercase;
 }
 
 .portfolio-desktop-wrapper div, .portfolio-desktop-title {

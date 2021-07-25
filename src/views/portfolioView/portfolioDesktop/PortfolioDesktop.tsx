@@ -1,6 +1,7 @@
 import './PortfolioDesktop.css'
 import { useHistory } from 'react-router'
 import RoutingPath from '../../../routes/RoutingPath'
+import { PortfolioData } from '../data/Portfolio-data'
 
 export const PortfolioDesktop = () => {
   const history = useHistory()
@@ -10,23 +11,23 @@ export const PortfolioDesktop = () => {
       <div className="desktop-wrapper">
         <div className="portfolio-desktop-wrapper">
           <h1 className="portfolio-desktop-title">
-            Portfolio
+            {PortfolioData.title}
           </h1>
           <div onClick={() => window.open('https://etolog.se/')}>
-            <h3>ETOLOG.SE</h3>
-            <p>Designade och byggde på egen hand en webbapplikation i ReactJS, MongoDB och NodeJS, med versionhantering via Github.Backend styrs av en adminpanel med inlogg där man kan lägga till, ta bort och redigera etologer.</p>
+            <h3>{PortfolioData.etologTitle}</h3>
+            <p>{PortfolioData.etologDesc}</p>
           </div>
           <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
-            <h3>COFFEE MOCK-UP</h3>
-            <p>En egendesignad, fullt responsiv webbsida som jag främst använder för att testa funktioner och tricks i HTML, CSS och JavaScript. Uppdateras kontinuerligt.</p>
+            <h3>{PortfolioData.coffeeTitle}</h3>
+            <p>{PortfolioData.coffeeDesc}</p>
           </div>
           <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719573144867')}>
-            <h3>FOTO</h3>
-            <p>Ett urval av fotografier jag har tagit under min tid som yrkesfotograf</p>
+            <h3>{PortfolioData.fotoTitle}</h3>
+            <p>{PortfolioData.fotoDesc}</p>
           </div>
           <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719560435103')}>
-            <h3>KONSTVERK</h3>
-            <p>Ett urval av tavlor och illustrationer som jag har gjort.</p>
+            <h3>{PortfolioData.artTitle}</h3>
+            <p>{PortfolioData.artDesc}</p>
           </div>
         </div>
       </div>
