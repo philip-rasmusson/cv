@@ -1,17 +1,17 @@
 import './HomeViewDesktop.css'
 import { useHistory } from 'react-router'
 import { useContext } from 'react'
-import { GlobalContext } from '../../../shared/provider/GlobalProvider'
+import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 import LocalStorage from '../../../shared/cache/LocalStorage'
 import RoutingPath from '../../../routes/RoutingPath'
 
 export const HomeViewDesktop = () => {
 
-  const [globalValue, setGlobalValue] = useContext(GlobalContext)
+  const [language, setLanguage] = useContext(LanguageContext)
   const history = useHistory<any>()
 
-  const setLanguage = (language: string) => {
-    setGlobalValue(language)
+  const selectLanguage = (language: string) => {
+    setLanguage(language)
     // localStorage.setItem(LocalStorage.language, c)
     history.push(RoutingPath.aboutMeView)
   }

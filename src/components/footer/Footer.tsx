@@ -1,26 +1,27 @@
 import './Footer.css'
 import { useState, useContext } from 'react'
-import { GlobalContext } from '../../shared/provider/GlobalProvider'
+import { LanguageContext } from '../../shared/provider/LanguageProvider'
 
 export const Footer = () => {
-  const [globalValue, setGlobalValue] = useContext(GlobalContext)
+  const [language, setLanguage] = useContext(LanguageContext)
 
   const toggleLanguage = () => {
-    globalValue === 'english'
-      ? setGlobalValue('')
-      : setGlobalValue('english')
+    language === 'english'
+      ? setLanguage('')
+      : setLanguage('english')
   }
 
   const checkLanguage = () => {
-    return globalValue === 'english'
-      ? <><span onClick={() => toggleLanguage()} style={{ cursor: 'pointer' }}>🇸🇪</span>  <span style={{ fontSize: '2rem' }}>🇬🇧</span></>
-      : <><span style={{ fontSize: '2rem' }}>🇸🇪</span>   <span onClick={() => toggleLanguage()} style={{ cursor: 'pointer' }}>🇬🇧</span></>
+    return language === 'english'
+      ? <><span onClick={() => toggleLanguage()} className="footer-icon-inactive">🇸🇪</span>  <span className="footer-icon-active">🇬🇧</span></>
+      : <><span className="footer-icon-active">🇸🇪</span>   <span onClick={() => toggleLanguage()} className="footer-icon-inactive">🇬🇧</span></>
   }
   return (
     <div className="footer-wrapper">
-      <h3>
+      <div>
         {checkLanguage()}
-      </h3>
+      </div>
+      <p className="footer-copyright">Design Philip Rasmusson | 2021 All Rights Reserved</p>
     </div>
   )
 }

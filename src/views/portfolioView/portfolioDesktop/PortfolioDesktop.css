@@ -4,6 +4,7 @@
   grid-template-columns: repeat(12, 1fr);
   width: 70vw;
   max-width: 50rem;
+  margin: 5rem auto;
 }
 
 .portfolio-desktop-wrapper div {

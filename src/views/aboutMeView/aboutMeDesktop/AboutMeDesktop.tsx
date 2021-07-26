@@ -2,7 +2,7 @@ import './AboutMeDesktop.css'
 import headerImg from '../../../shared/img/IMG_0085.png'
 import { AboutMeDataEnglish } from '../data/AboutMeDataEnglish'
 import { useState, useContext } from 'react'
-import { GlobalContext } from '../../../shared/provider/GlobalProvider'
+import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 import javascript from '../../../shared/img/icons/javascript.svg'
 import css from '../../../shared/img/icons/css.svg'
 import html from '../../../shared/img/icons/html.svg'
@@ -23,7 +23,7 @@ import LocalStorage from '../../../shared/cache/LocalStorage'
 
 export const AboutMeDesktop = () => {
 
-  const [globalValue, setGlobalValue] = useContext(GlobalContext)
+  const [language, setsetLanguage] = useContext(LanguageContext)
 
 
   const [icon, setIcon] = useState<any>()
@@ -41,7 +41,7 @@ export const AboutMeDesktop = () => {
     setFontColor('#f1f1f1')
   }
 
-  console.log(globalValue)
+  console.log(language)
 
 
   return (

@@ -3,23 +3,23 @@ import './PortfolioDesktop.css'
 // import RoutingPath from '../../../routes/RoutingPath'
 import { PortfolioData } from '../data/Portfolio-data'
 import { useState, useContext, useEffect } from 'react'
-import { GlobalContext } from '../../../shared/provider/GlobalProvider'
+import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 export const PortfolioDesktop = () => {
 
 
-  const [globalValue] = useContext(GlobalContext)
+  const [language] = useContext(LanguageContext)
   const [etologDesc, setEtologDesc] = useState<string>('')
 
   // const history = useHistory()
 
   const checkLanguage = () => {
-    globalValue === 'english' ? setEtologDesc('Nu blommar asfalten') : setEtologDesc(PortfolioData.etologDesc)
+    language === 'english' ? setEtologDesc('Nu blommar asfalten') : setEtologDesc(PortfolioData.etologDesc)
   }
 
   useEffect(() => {
     checkLanguage()
-  }, [])
+  }, [language])
 
   return (
     <div className="page-wrapper">
