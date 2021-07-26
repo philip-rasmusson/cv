@@ -1,10 +1,25 @@
 import './PortfolioDesktop.css'
-import { useHistory } from 'react-router'
-import RoutingPath from '../../../routes/RoutingPath'
+// import { useHistory } from 'react-router'
+// import RoutingPath from '../../../routes/RoutingPath'
 import { PortfolioData } from '../data/Portfolio-data'
+import { useState, useContext, useEffect } from 'react'
+import { GlobalContext } from '../../../shared/provider/GlobalProvider'
 
 export const PortfolioDesktop = () => {
-  const history = useHistory()
+
+
+  const [globalValue] = useContext(GlobalContext)
+  const [etologDesc, setEtologDesc] = useState<string>('')
+
+  // const history = useHistory()
+
+  const checkLanguage = () => {
+    globalValue === 'english' ? setEtologDesc('Nu blommar asfalten') : setEtologDesc(PortfolioData.etologDesc)
+  }
+
+  useEffect(() => {
+    checkLanguage()
+  }, [])
 
   return (
     <div className="page-wrapper">
@@ -15,7 +30,7 @@ export const PortfolioDesktop = () => {
           </h1>
           <div onClick={() => window.open('https://etolog.se/')}>
             <h3>{PortfolioData.etologTitle}</h3>
-            <p>{PortfolioData.etologDesc}</p>
+            <p>{etologDesc}</p>
           </div>
           <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
             <h3>{PortfolioData.coffeeTitle}</h3>

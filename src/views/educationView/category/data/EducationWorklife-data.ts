@@ -30,6 +30,7 @@ const esoftLi3 = `Starkt fokus på kundkontakt och krav på ett konstant profess
 
 const course1 = 'Objektorienterad programmering i C#'
 const gradeVG = ' | VG'
+const gradeVGmobile = 'VG'
 const course2 = 'Objektorienterad arkitektur i C#'
 const course3 = 'Kvalitetssäkring och testdriven utveckling i C#'
 const course4 = 'Personlig- och professionell utveckling'
@@ -71,5 +72,6 @@ export const EducationWorklifeData = {
   utbildning,
   arbetsliv,
   gradesLinkInitial,
-  gradesLinkSwitched
+  gradesLinkSwitched,
+  gradeVGmobile
 }

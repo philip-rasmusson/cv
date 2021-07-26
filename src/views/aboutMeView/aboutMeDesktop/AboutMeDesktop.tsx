@@ -1,7 +1,8 @@
 import './AboutMeDesktop.css'
 import headerImg from '../../../shared/img/IMG_0085.png'
 import { AboutMeDataEnglish } from '../data/AboutMeDataEnglish'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
+import { GlobalContext } from '../../../shared/provider/GlobalProvider'
 import javascript from '../../../shared/img/icons/javascript.svg'
 import css from '../../../shared/img/icons/css.svg'
 import html from '../../../shared/img/icons/html.svg'
@@ -18,8 +19,12 @@ import webdesign from '../../../shared/img/icons/webdesign.svg'
 import adobe from '../../../shared/img/icons/adobe.svg'
 import swedish from '../../../shared/img/icons/swedish.svg'
 import english from '../../../shared/img/icons/english.svg'
+import LocalStorage from '../../../shared/cache/LocalStorage'
 
 export const AboutMeDesktop = () => {
+
+  const [globalValue, setGlobalValue] = useContext(GlobalContext)
+
 
   const [icon, setIcon] = useState<any>()
   const [iconText, setIconText] = useState<string>('')
@@ -35,6 +40,8 @@ export const AboutMeDesktop = () => {
     setBgcolor(color)
     setFontColor('#f1f1f1')
   }
+
+  console.log(globalValue)
 
 
   return (

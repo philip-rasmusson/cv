@@ -63,17 +63,17 @@ export const EducationMobile = () => {
                 </p>
                 <div className="education-worklife-mobile-category-grades-wrapper" style={{ display: showGrades }}>
                   <p className="course1-desktop">{EducationWorklifeData.course1}</p>
-                  <p className="grade1-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade1-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                   <p className="course2-desktop">{EducationWorklifeData.course2}</p>
-                  <p className="grade2-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade2-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                   <p className="course3-desktop">{EducationWorklifeData.course3}</p>
-                  <p className="grade3-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade3-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                   <p className="course4-desktop">P{EducationWorklifeData.course4}</p>
-                  <p className="grade4-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade4-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                   <p className="course5-desktop">{EducationWorklifeData.course5}</p>
-                  <p className="grade5-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade5-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                   <p className="course6-desktop">{EducationWorklifeData.course6}</p>
-                  <p className="grade6-desktop">{EducationWorklifeData.gradeVG}</p>
+                  <p className="grade6-desktop">{EducationWorklifeData.gradeVGmobile}</p>
                 </div>
               </div>
               <div>
