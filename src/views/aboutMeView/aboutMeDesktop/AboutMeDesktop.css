@@ -7,7 +7,7 @@
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
-  margin-top: 5rem;
+  margin: 5rem auto;
 }
 
 .aboutme-desktop-wrapper h3 {
