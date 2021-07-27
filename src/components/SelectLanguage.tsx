@@ -1,5 +1,4 @@
-import { useContext, useState } from 'react'
-import { useEffect } from 'react'
+import { useContext } from 'react'
 import { LanguageContext } from '../shared/provider/LanguageProvider'
 
 export const SelectLanguage = (props: { textEng: string, textSwe: string }) => {

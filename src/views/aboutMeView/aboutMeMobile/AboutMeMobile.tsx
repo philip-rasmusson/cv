@@ -1,6 +1,6 @@
 import './AboutMeMobile.css'
 import headerImg from '../../../shared/img/IMG_0085.png'
-import { AboutMeDataEnglish } from '../data/AboutMeDataEnglish'
+import { AboutMeDataEnglish } from '../data/AboutMeData'
 
 export const AboutMeMobile = () => {
   return (
@@ -8,10 +8,10 @@ export const AboutMeMobile = () => {
       {/* <div className="page-wrapper-mobile"> */}
       <div className="mobile-wrapper">
         <div className="aboutme-mobile-wrapper">
-          <h1>{AboutMeDataEnglish.hej}</h1>
+          <h1>{AboutMeDataEnglish.hi}</h1>
           <h3>
-            {AboutMeDataEnglish.omMig}<br /><br />
-            {AboutMeDataEnglish.omMig2}
+            {AboutMeDataEnglish.aboutMe}<br /><br />
+            {AboutMeDataEnglish.aboutMe2}
           </h3>
           <img src={headerImg} alt="Profile picture" />
           <div className="about-me-mobile-competence-wrapper">

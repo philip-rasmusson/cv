@@ -1,33 +1,9 @@
 import './HeaderMobile.css'
 import { HeaderData } from '../data/Header-data'
-// import { useContext, useState } from 'react'
-// import { useEffect } from 'react'
-// import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 import { SocialMediaIcons } from "../../socialMedia/SocialMediaIcons"
 import { SelectLanguage } from '../../SelectLanguage'
 
-
 export const HeaderMobile = () => {
-  // const [language, setsetLanguage] = useContext(LanguageContext)
-  // const [titleDesc, setTitleDesc] = useState<any>()
-
-  // const checkLanguage = () => {
-  //   language === 'english'
-  //     ? selectLanguageEnglish()
-  //     : selectLanguageSwedish()
-  // }
-
-  // const selectLanguageEnglish = () => {
-  //   setTitleDesc(HeaderData.titleDescEng)
-  // }
-
-  // const selectLanguageSwedish = () => {
-  //   setTitleDesc(HeaderData.titleDesc)
-  // }
-
-  // useEffect(() => {
-  //   checkLanguage()
-  // }, [language])
   return (
     <div className="header-mobile">
       <div className="main-line-mobile"></div>

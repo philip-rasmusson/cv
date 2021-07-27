@@ -40,6 +40,7 @@
   border: #454545 solid 1px;
   padding: 1rem;
   border-radius: 1rem;
+  min-width: 28rem;
 }
 
 .about-me-desktop-competence-wrapper h3 {
@@ -47,6 +48,8 @@
   grid-column: 1;
   text-transform: uppercase;
   font-weight: 400;
+  justify-self: center;
+  color: #f1f1f1;
 }
 
 .about-me-desktop-competence-wrapper-items {
@@ -58,6 +61,7 @@
 }
 
 .about-me-desktop-competence-wrapper-items p {
+  color: #f1f1f1;
   justify-self: center;
   cursor: pointer;
 }

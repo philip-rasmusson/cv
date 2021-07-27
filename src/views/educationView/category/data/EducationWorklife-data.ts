@@ -1,32 +1,43 @@
 //EDUCATION
 const utbildning = 'utbildning'
+const utbildningEng = 'education'
 
 const studioblueTitle = `Studio Blue`
 const studioblueYears = '2004 -2006'
 const studioblueText = `Musikproduktion och ljudteknik`
+const studioblueTextEng = `Music Production & Sound Engineering`
 
 const campusMolndalTitle = `Campus Mölndal`
 const campusMolndalYears = ` Augusti 2020 - juni 2022`
+const campusMolndalYearsEng = ` August 2020 - June 2022`
 const campusMolndalText = `.NET / webbutveckling`
+const campusMolndalTextEng = `.NET / Web Development`
 
 //WORKLIFE
 const arbetsliv = 'arbetsliv'
+const arbetslivEng = 'worklife'
 
 const casinoCosmopolTitle = `Casino Cosmopol  |  2007 - 2012`
 const casinoCosmopolTitleMobile = `Casino Cosmopol`
 const casinoCosmopolYears = `2007 - 2012`
 const casinoCosmopolDesc = `BARTENDER`
 const casinoCosmopolLi1 = ` Höga krav på ansvarstagande och service`
+const casinoCosmopolLi1Eng = ` High demand on responsibility and service`
 const casinoCosmopolLi2 = `Fokus på stesstålighet och kundbemötande`
-const casinoCosmopolLi3 = `Ingående säkerhetskontroller innan anställning`
+const casinoCosmopolLi2Eng = `Focus on ability to handle stress and customer relations`
+// const casinoCosmopolLi3 = `Ingående säkerhetskontroller innan anställning`
 
 const esoftTitle = `Esoft Systems AB  |  2007 - 2021`
 const esoftTitleMobile = `Esoft Systems AB`
 const esoftYears = `2007 - 2021`
 const esoftDesc = `FOTOGRAF/UTBILDARE`
+const esoftDescEng = `PHOTOGRAPHER/EDUCATOR`
 const esoftLi1 = `Ansvar för utbildning av nya fotografer`
+const esoftLi1Eng = `Responsible for educating new photographers`
 const esoftLi2 = `Höga krav på självständigt arbete och punktlighet, företagets ansikte utåt gentemot både mäklare och husägare`
+const esoftLi2Eng = `High demans on independence and showing up on time, company's face towards realtors and house sellers`
 const esoftLi3 = `Starkt fokus på kundkontakt och krav på ett konstant professionellt bemötande`
+const esoftLi3Eng = `Strong focus on customer relations and a constant demand for a professional appearance`
 
 const course1 = 'Objektorienterad programmering i C#'
 const gradeVG = ' | VG'
@@ -39,6 +50,8 @@ const course6 = 'Agil mjukvaruutveckling/Scrum'
 
 const gradesLinkInitial = 'Klicka här för att se kurser och betyg'
 const gradesLinkSwitched = 'Klicka här för att dölja kurser och betyg'
+const gradesLinkInitialEng = 'Click here to see courses and grades'
+const gradesLinkSwitchedEng = 'Click here to hide courses and grades'
 
 
 export const EducationWorklifeData = {
@@ -51,7 +64,7 @@ export const EducationWorklifeData = {
   casinoCosmopolDesc,
   casinoCosmopolLi1,
   casinoCosmopolLi2,
-  casinoCosmopolLi3,
+  // casinoCosmopolLi3,
   casinoCosmopolTitle,
   casinoCosmopolTitleMobile,
   casinoCosmopolYears,
@@ -73,5 +86,18 @@ export const EducationWorklifeData = {
   arbetsliv,
   gradesLinkInitial,
   gradesLinkSwitched,
-  gradeVGmobile
+  gradeVGmobile,
+  utbildningEng,
+  gradesLinkSwitchedEng,
+  gradesLinkInitialEng,
+  esoftLi3Eng,
+  esoftLi2Eng,
+  esoftLi1Eng,
+  esoftDescEng,
+  casinoCosmopolLi2Eng,
+  casinoCosmopolLi1Eng,
+  arbetslivEng,
+  campusMolndalTextEng,
+  campusMolndalYearsEng,
+  studioblueTextEng
 }

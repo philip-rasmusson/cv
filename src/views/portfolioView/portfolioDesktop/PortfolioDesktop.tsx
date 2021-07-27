@@ -2,24 +2,25 @@ import './PortfolioDesktop.css'
 // import { useHistory } from 'react-router'
 // import RoutingPath from '../../../routes/RoutingPath'
 import { PortfolioData } from '../data/Portfolio-data'
-import { useState, useContext, useEffect } from 'react'
-import { LanguageContext } from '../../../shared/provider/LanguageProvider'
+// import { useState, useContext, useEffect } from 'react'
+// import { LanguageContext } from '../../../shared/provider/LanguageProvider'
+import { SelectLanguage } from '../../../components/SelectLanguage'
 
 export const PortfolioDesktop = () => {
 
-  const [language] = useContext(LanguageContext)
+  // const [language] = useContext(LanguageContext)
 
-  const [etologDesc, setEtologDesc] = useState<string>('')
+  // const [etologDesc, setEtologDesc] = useState<string>('')
 
-  // const history = useHistory()
+  // // const history = useHistory()
 
-  const checkLanguage = () => {
-    language === 'english' ? setEtologDesc('Nu blommar asfalten') : setEtologDesc(PortfolioData.etologDesc)
-  }
+  // const checkLanguage = () => {
+  //   language === 'english' ? setEtologDesc('Nu blommar asfalten') : setEtologDesc(PortfolioData.etologDesc)
+  // }
 
-  useEffect(() => {
-    checkLanguage()
-  }, [language])
+  // useEffect(() => {
+  //   checkLanguage()
+  // }, [language])
 
   return (
     <div className="page-wrapper">
@@ -30,19 +31,39 @@ export const PortfolioDesktop = () => {
           </h1>
           <div onClick={() => window.open('https://etolog.se/')}>
             <h3>{PortfolioData.etologTitle}</h3>
-            <p>{etologDesc}</p>
+            <p>
+              <SelectLanguage
+                textEng={PortfolioData.etologDescEng}
+                textSwe={PortfolioData.etologDesc}
+              />
+            </p>
           </div>
           <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
             <h3>{PortfolioData.coffeeTitle}</h3>
-            <p>{PortfolioData.coffeeDesc}</p>
+            <p><SelectLanguage
+              textEng={PortfolioData.coffeeDescEng}
+              textSwe={PortfolioData.coffeeDesc}
+            /></p>
           </div>
           <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719573144867')}>
-            <h3>{PortfolioData.fotoTitle}</h3>
-            <p>{PortfolioData.fotoDesc}</p>
+            <h3><SelectLanguage
+              textEng={PortfolioData.fotoTitleEng}
+              textSwe={PortfolioData.fotoTitle}
+            /></h3>
+            <p><SelectLanguage
+              textEng={PortfolioData.fotoDescEng}
+              textSwe={PortfolioData.fotoDesc}
+            /></p>
           </div>
           <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719560435103')}>
-            <h3>{PortfolioData.artTitle}</h3>
-            <p>{PortfolioData.artDesc}</p>
+            <h3><SelectLanguage
+              textEng={PortfolioData.artTitleEng}
+              textSwe={PortfolioData.artTitle}
+            /></h3>
+            <p><SelectLanguage
+              textEng={PortfolioData.artDescEng}
+              textSwe={PortfolioData.artDesc}
+            /></p>
           </div>
         </div>
       </div>

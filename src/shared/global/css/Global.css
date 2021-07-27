@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 .wrapper {
   height: 100vh;
   display: grid;
-  grid-template-rows: 10vw auto 5vw;
+  grid-template-rows: 10vw auto auto;
   grid-template-columns: auto;
 }
 
