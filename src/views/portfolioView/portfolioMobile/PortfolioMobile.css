@@ -25,3 +25,7 @@
   grid-column: 1/-1;
   align-self: center;
 }
+
+.portfolio-mobile-title {
+  text-transform: uppercase;
+}

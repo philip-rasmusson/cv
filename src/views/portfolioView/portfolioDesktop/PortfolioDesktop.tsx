@@ -7,8 +7,8 @@ import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 export const PortfolioDesktop = () => {
 
-
   const [language] = useContext(LanguageContext)
+
   const [etologDesc, setEtologDesc] = useState<string>('')
 
   // const history = useHistory()
