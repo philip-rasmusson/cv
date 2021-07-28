@@ -23,7 +23,7 @@ const sql = 'SQL'
 const mongodb = 'MongoDB'
 const git = 'Git'
 const scrum = 'Scrum'
-const webdesign = 'Webdesign'
+const wordpress = 'WordPress'
 const adobe = 'Adobe CC'
 const swedishEng = 'Swedish '
 const swedish = 'Svenska '
@@ -47,7 +47,7 @@ const linkSQL = 'https://en.wikipedia.org/wiki/SQL'
 const linkMongodb = 'https://en.wikipedia.org/wiki/MongoDB'
 const linkGit = 'https://en.wikipedia.org/wiki/Git'
 const linkScrum = 'https://sv.wikipedia.org/wiki/Scrum'
-const linkWebdesign = ''
+const linkWordpress = 'https://en.wikipedia.org/wiki/WordPress'
 const linkAdobe = 'https://en.wikipedia.org/wiki/Adobe_Creative_Cloud'
 
 
@@ -63,10 +63,8 @@ const bgcolorSQL = '#000000'
 const bgcolorMongoDB = '#4CAF50'
 const bgcolorGit = '#F05133'
 const bgcolorScrum = '#424242'
-const bgcolorWebdesign = '#F7B209'
+const bgcolorWordpress = '#21759B'
 const bgcolorAdobe = '#CD0818'
-const bgcolorSwedish = '#'
-const bgcolorEnglish = '#'
 
 export const AboutMeDataEnglish = {
   hiEng,
@@ -87,7 +85,7 @@ export const AboutMeDataEnglish = {
   mongodb,
   git,
   scrum,
-  webdesign,
+  wordpress,
   adobe,
   swedish,
   swedishEng,
@@ -107,9 +105,8 @@ export const AboutMeDataEnglish = {
   bgcolorReact,
   bgcolorSQL,
   bgcolorScrum,
-  bgcolorSwedish,
-  bgcolorWebdesign,
-  bgcolorEnglish,
+  bgcolorWordpress,
+  linkWordpress,
   bgcolorCSS,
   bgcolorCSharp,
   bgcolorEntity,
@@ -128,6 +125,5 @@ export const AboutMeDataEnglish = {
   linkMongodb,
   linkGit,
   linkScrum,
-  linkWebdesign,
   linkAdobe,
 }

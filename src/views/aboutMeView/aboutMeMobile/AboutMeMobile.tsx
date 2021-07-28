@@ -40,10 +40,8 @@ export const AboutMeMobile = () => {
               <p>{AboutMeDataEnglish.mongodb}</p>
               <p>{AboutMeDataEnglish.git}</p>
               <p>{AboutMeDataEnglish.scrum}</p>
-              <p>{AboutMeDataEnglish.webdesign}</p>
+              <p>{AboutMeDataEnglish.wordpress}</p>
               <p>{AboutMeDataEnglish.adobe}</p>
-              <p>{AboutMeDataEnglish.swedish}</p>
-              <p>{AboutMeDataEnglish.english}</p>
             </div>
           </div>
         </div>

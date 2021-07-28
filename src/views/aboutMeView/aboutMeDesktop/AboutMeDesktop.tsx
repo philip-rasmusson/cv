@@ -15,6 +15,7 @@ import mongodb from '../../../shared/img/icons/mongodb.svg'
 import git from '../../../shared/img/icons/git.svg'
 import scrum from '../../../shared/img/icons/scrum.svg'
 import adobe from '../../../shared/img/icons/adobe.svg'
+import wordpress from '../../../shared/img/icons/wordpress.svg'
 import { SelectLanguage } from '../../../components/SelectLanguage'
 
 export const AboutMeDesktop = () => {
@@ -68,6 +69,7 @@ export const AboutMeDesktop = () => {
               <p onClick={() => selectIcon(git, AboutMeDataEnglish.linkGit, AboutMeDataEnglish.bgcolorGit)}>{AboutMeDataEnglish.git}</p>
               <p onClick={() => selectIcon(scrum, AboutMeDataEnglish.linkScrum, AboutMeDataEnglish.bgcolorScrum)}>{AboutMeDataEnglish.scrum}</p>
               <p onClick={() => selectIcon(adobe, AboutMeDataEnglish.linkAdobe, AboutMeDataEnglish.bgcolorAdobe)}>{AboutMeDataEnglish.adobe}</p>
+              <p onClick={() => selectIcon(wordpress, AboutMeDataEnglish.linkWordpress, AboutMeDataEnglish.bgcolorWordpress)}>{AboutMeDataEnglish.wordpress}</p>
             </div>
           </div>
           <div className="about-me-desktop-icon-wrapper">
