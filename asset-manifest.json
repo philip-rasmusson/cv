@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.8633bbaf.chunk.css",
-    "main.js": "/cv/static/js/main.3125a5f6.chunk.js",
-    "main.js.map": "/cv/static/js/main.3125a5f6.chunk.js.map",
-    "runtime-main.js": "/cv/static/js/runtime-main.ceb5d6fa.js",
-    "runtime-main.js.map": "/cv/static/js/runtime-main.ceb5d6fa.js.map",
-    "static/js/2.ad619278.chunk.js": "/cv/static/js/2.ad619278.chunk.js",
-    "static/js/2.ad619278.chunk.js.map": "/cv/static/js/2.ad619278.chunk.js.map",
-    "static/js/3.bdc9dad0.chunk.js": "/cv/static/js/3.bdc9dad0.chunk.js",
-    "static/js/3.bdc9dad0.chunk.js.map": "/cv/static/js/3.bdc9dad0.chunk.js.map",
+    "main.css": "/cv/static/css/main.968781e3.chunk.css",
+    "main.js": "/cv/static/js/main.a1a78096.chunk.js",
+    "main.js.map": "/cv/static/js/main.a1a78096.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.28f600a9.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.28f600a9.js.map",
+    "static/js/2.1539a4f0.chunk.js": "/cv/static/js/2.1539a4f0.chunk.js",
+    "static/js/2.1539a4f0.chunk.js.map": "/cv/static/js/2.1539a4f0.chunk.js.map",
+    "static/js/3.a43c8d3a.chunk.js": "/cv/static/js/3.a43c8d3a.chunk.js",
+    "static/js/3.a43c8d3a.chunk.js.map": "/cv/static/js/3.a43c8d3a.chunk.js.map",
     "index.html": "/cv/index.html",
-    "static/css/main.8633bbaf.chunk.css.map": "/cv/static/css/main.8633bbaf.chunk.css.map",
-    "static/js/2.ad619278.chunk.js.LICENSE.txt": "/cv/static/js/2.ad619278.chunk.js.LICENSE.txt",
+    "static/css/main.968781e3.chunk.css.map": "/cv/static/css/main.968781e3.chunk.css.map",
+    "static/js/2.1539a4f0.chunk.js.LICENSE.txt": "/cv/static/js/2.1539a4f0.chunk.js.LICENSE.txt",
     "static/media/IMG_0085.3b5ec713.png": "/cv/static/media/IMG_0085.3b5ec713.png",
     "static/media/adobe.a87b1dc2.svg": "/cv/static/media/adobe.a87b1dc2.svg",
     "static/media/csharp.b90a3b7f.svg": "/cv/static/media/csharp.b90a3b7f.svg",
@@ -28,9 +28,9 @@
     "static/media/typescript.64108945.svg": "/cv/static/media/typescript.64108945.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ceb5d6fa.js",
-    "static/js/2.ad619278.chunk.js",
-    "static/css/main.8633bbaf.chunk.css",
-    "static/js/main.3125a5f6.chunk.js"
+    "static/js/runtime-main.28f600a9.js",
+    "static/js/2.1539a4f0.chunk.js",
+    "static/css/main.968781e3.chunk.css",
+    "static/js/main.a1a78096.chunk.js"
   ]
 }
