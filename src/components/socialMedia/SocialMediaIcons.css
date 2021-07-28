@@ -37,3 +37,12 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media (max-width: 760px) {
+  .social-media-info {
+    display: none;
+  }
+  .social-media-icon {
+    font-size: 2rem;
+  }
+}

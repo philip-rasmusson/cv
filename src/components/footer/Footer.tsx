@@ -1,5 +1,5 @@
 import './Footer.css'
-import { useState, useContext } from 'react'
+import { useContext } from 'react'
 import { LanguageContext } from '../../shared/provider/LanguageProvider'
 
 export const Footer = () => {

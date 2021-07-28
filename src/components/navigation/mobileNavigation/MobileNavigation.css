@@ -109,3 +109,16 @@
 .burger-active .line2 {
   display: none;
 }
+
+.navbar-mobile-social-media-wrapper {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .social-media-icon {
+  font-size: 30vw;
+} */

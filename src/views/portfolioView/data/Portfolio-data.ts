@@ -10,8 +10,8 @@ const coffeeDescEng = 'Designed by me, a fully responsive website that I mainly 
 
 const fotoTitle = 'FOTO'
 const fotoTitleEng = 'PHOTO'
-const fotoDesc = 'Ett urval av fotografier jag har tagit under min tid som yrkesfotograf'
-const fotoDescEng = 'A selection of photographs I have produced in my years as a professional photographer'
+const fotoDesc = 'Ett urval av fotografier jag har tagit under min tid som yrkesfotograf.'
+const fotoDescEng = 'A selection of photographs I have produced in my years as a professional photographer.'
 
 const artTitle = 'KOSTVERK'
 const artTitleEng = 'ARTWORK'

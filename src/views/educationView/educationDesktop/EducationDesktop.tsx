@@ -1,24 +1,23 @@
 import './EducationDesktop.css'
 import { EducationWorklifeData } from '../category/data/EducationWorklife-data'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { SelectLanguage } from '../../../components/SelectLanguage'
+import { useContext } from 'react'
+import { LanguageContext } from '../../../shared/provider/LanguageProvider'
 
 export const EducationDesktop = () => {
 
   const [showGrades, setShowGrades] = useState('none')
-  const [gradesLink, setGradesLink] = useState(EducationWorklifeData.gradesLinkInitial)
+  const [language] = useContext(LanguageContext)
 
   const toggleGrades = () => {
     showGrades === 'none'
       ? setShowGrades('grid')
       : setShowGrades('none')
-    toggleGradesLink()
   }
-  const toggleGradesLink = () => {
-    showGrades === 'none'
-      ? setGradesLink(EducationWorklifeData.gradesLinkSwitched)
-      : setGradesLink(EducationWorklifeData.gradesLinkInitial)
-  }
+
+  useEffect(() => {
+  }, [language])
 
   return (
 
@@ -43,20 +42,40 @@ export const EducationDesktop = () => {
                   textSwe={EducationWorklifeData.campusMolndalText}
                 /></p>
                 <p className="education-worklife-desktop-category-grades-link" onClick={() => toggleGrades()}>
-                  {gradesLink}
+                  <SelectLanguage
+                    textEng={EducationWorklifeData.gradesLinkEng}
+                    textSwe={EducationWorklifeData.gradesLink} />
                 </p>
                 <div className="education-worklife-desktop-category-grades-wrapper" style={{ display: showGrades }}>
-                  <p className="course1-desktop">{EducationWorklifeData.course1}</p>
+                  <p className="course1-desktop"><SelectLanguage
+                    textEng={EducationWorklifeData.course1Eng}
+                    textSwe={EducationWorklifeData.course1}
+                  /></p>
                   <p className="grade1-desktop">{EducationWorklifeData.gradeVG}</p>
-                  <p className="course2-desktop">{EducationWorklifeData.course2}</p>
+                  <p className="course2-desktop"><SelectLanguage
+                    textEng={EducationWorklifeData.course2Eng}
+                    textSwe={EducationWorklifeData.course2}
+                  /></p>
                   <p className="grade2-desktop">{EducationWorklifeData.gradeVG}</p>
-                  <p className="course3-desktop">{EducationWorklifeData.course3}</p>
+                  <p className="course3-desktop"><SelectLanguage
+                    textEng={EducationWorklifeData.course3Eng}
+                    textSwe={EducationWorklifeData.course3}
+                  /></p>
                   <p className="grade3-desktop">{EducationWorklifeData.gradeVG}</p>
-                  <p className="course4-desktop">P{EducationWorklifeData.course4}</p>
+                  <p className="course4-desktop">P<SelectLanguage
+                    textEng={EducationWorklifeData.course4Eng}
+                    textSwe={EducationWorklifeData.course4}
+                  /></p>
                   <p className="grade4-desktop">{EducationWorklifeData.gradeVG}</p>
-                  <p className="course5-desktop">{EducationWorklifeData.course5}</p>
+                  <p className="course5-desktop"><SelectLanguage
+                    textEng={EducationWorklifeData.course5Eng}
+                    textSwe={EducationWorklifeData.course5}
+                  /></p>
                   <p className="grade5-desktop">{EducationWorklifeData.gradeVG}</p>
-                  <p className="course6-desktop">{EducationWorklifeData.course6}</p>
+                  <p className="course6-desktop"><SelectLanguage
+                    textEng={EducationWorklifeData.course6Eng}
+                    textSwe={EducationWorklifeData.course6}
+                  /></p>
                   <p className="grade6-desktop">{EducationWorklifeData.gradeVG}</p>
                 </div>
               </div>

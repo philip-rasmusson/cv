@@ -7,19 +7,24 @@
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
-  margin: 5rem auto;
+  margin: 10rem auto 5rem auto;
 }
 
-.aboutme-desktop-wrapper h3 {
+.aboutme-desktop-wrapper h2 {
   font-family: 'Helvetica', sans-serif;
   font-weight: 200;
-  font-size: 2vw;
+  font-size: 1.2rem;
   grid-column: 2;
   grid-row: 1;
   text-align: left;
   align-self: center;
   margin: auto 2rem;
   max-width: 30rem;
+}
+
+.aboutme-desktop-title {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .about-me-desktop-img {
@@ -36,7 +41,7 @@
   grid-row: 2;
   grid-column: 2;
   grid-gap: 2rem;
-  margin: 2rem auto;
+  margin: 10rem auto 5rem auto;
   border: #454545 solid 1px;
   padding: 1rem;
   border-radius: 1rem;

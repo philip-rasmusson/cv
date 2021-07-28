@@ -1,7 +1,4 @@
-import { useHistory } from 'react-router-dom'
-
 import '../../shared/global/css/Global.css'
-
 import RoutingPath from '../../routes/RoutingPath'
 import { menuItemsEnglish } from '../../data/MenuItemsEnglish'
 import { MenuItem } from './MenuItem'
@@ -21,7 +18,6 @@ export const MenuItems = () => {
     } else {
       setAboutMe(menuItemsEnglish.aboutMe)
       setEducation(menuItemsEnglish.educationWorklife)
-
     }
   }
 
@@ -29,28 +25,27 @@ export const MenuItems = () => {
     checkLanguage()
   }, [language])
 
-  const history = useHistory()
   return (
     <>
       <ul className='menu-items'>
-        <li>
+        <>
           <MenuItem
             link={RoutingPath.aboutMeView}
             title={aboutMe}
           />
-        </li>
-        <li>
+        </>
+        <>
           <MenuItem
             link={RoutingPath.portfoliView}
             title={menuItemsEnglish.portfolio}
           />
-        </li>
-        <li>
+        </>
+        <>
           <MenuItem
             link={RoutingPath.educationView}
             title={education}
           />
-        </li>
+        </>
       </ul>
     </>
   )

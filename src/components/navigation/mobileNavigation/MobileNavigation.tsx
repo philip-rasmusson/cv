@@ -5,6 +5,7 @@ import { useHistory } from 'react-router'
 import { menuItemsEnglish } from '../../../data/MenuItemsEnglish'
 import RoutingPath from '../../../routes/RoutingPath'
 import { SelectLanguage } from '../../SelectLanguage'
+import { SocialMediaIcons } from '../../socialMedia/SocialMediaIcons'
 
 export const MobileNavigation = () => {
   const history = useHistory()
@@ -38,6 +39,7 @@ export const MobileNavigation = () => {
         <div className="line3"></div>
       </div>
       <div className={displayNavbar}>
+        <div className="navbar-mobile-social-media-wrapper">{SocialMediaIcons()}</div>
         <ul className='menu-items'>
           <li onClick={() => menuLink(RoutingPath.aboutMeView)}><SelectLanguage textEng={menuItemsEnglish.aboutMeEng} textSwe={menuItemsEnglish.aboutMe} /></li>
           <li onClick={() => menuLink(RoutingPath.portfoliView)}>{menuItemsEnglish.portfolio}</li>
@@ -47,9 +49,3 @@ export const MobileNavigation = () => {
     </>
   )
 }
-
-    // <>
-    //   <div className='navbar-mobile-wrapper'>
-    //     {MenuItems()}
-    //   </div>
-    // </>

@@ -39,19 +39,27 @@ const esoftLi2Eng = `High demans on independence and showing up on time, company
 const esoftLi3 = `Starkt fokus på kundkontakt och krav på ett konstant professionellt bemötande`
 const esoftLi3Eng = `Strong focus on customer relations and a constant demand for a professional appearance`
 
-const course1 = 'Objektorienterad programmering i C#'
+const course1 = 'Objektorienterad programmering med C#'
+const course1Eng = 'Object Oriented Programming with C#'
 const gradeVG = ' | VG'
 const gradeVGmobile = 'VG'
-const course2 = 'Objektorienterad arkitektur i C#'
+const course2 = 'Objektorienterad arkitektur med C#'
+const course2Eng = 'Object Oriented Architecture with C#'
 const course3 = 'Kvalitetssäkring och testdriven utveckling i C#'
+const course3Eng = 'Quality Assurance And Test Driven Development with C#'
 const course4 = 'Personlig- och professionell utveckling'
+const course4Eng = 'Personal And Professional Development'
 const course5 = 'Webbramverk ReactJS'
+const course5Eng = 'Web Framework ReactJS'
 const course6 = 'Agil mjukvaruutveckling/Scrum'
+const course6Eng = 'Agile Software Development/Scrum'
 
 const gradesLinkInitial = 'Klicka här för att se kurser och betyg'
 const gradesLinkSwitched = 'Klicka här för att dölja kurser och betyg'
 const gradesLinkInitialEng = 'Click here to see courses and grades'
 const gradesLinkSwitchedEng = 'Click here to hide courses and grades'
+const gradesLink = 'Visa/dölj kurser och betyg'
+const gradesLinkEng = 'Show/hide courses and grades'
 
 
 export const EducationWorklifeData = {
@@ -81,6 +89,12 @@ export const EducationWorklifeData = {
   course4,
   course5,
   course6,
+  course1Eng,
+  course2Eng,
+  course3Eng,
+  course4Eng,
+  course5Eng,
+  course6Eng,
   gradeVG,
   utbildning,
   arbetsliv,
@@ -99,5 +113,7 @@ export const EducationWorklifeData = {
   arbetslivEng,
   campusMolndalTextEng,
   campusMolndalYearsEng,
-  studioblueTextEng
+  studioblueTextEng,
+  gradesLink,
+  gradesLinkEng
 }

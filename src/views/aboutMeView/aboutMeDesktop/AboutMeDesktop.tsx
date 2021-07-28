@@ -1,8 +1,7 @@
 import './AboutMeDesktop.css'
 import headerImg from '../../../shared/img/IMG_0085.png'
 import { AboutMeDataEnglish } from '../data/AboutMeData'
-import { useState, useContext } from 'react'
-import { LanguageContext } from '../../../shared/provider/LanguageProvider'
+import { useState } from 'react'
 import javascript from '../../../shared/img/icons/javascript.svg'
 import css from '../../../shared/img/icons/css.svg'
 import html from '../../../shared/img/icons/html.svg'
@@ -19,9 +18,6 @@ import adobe from '../../../shared/img/icons/adobe.svg'
 import { SelectLanguage } from '../../../components/SelectLanguage'
 
 export const AboutMeDesktop = () => {
-
-
-
   const [icon, setIcon] = useState<any>(html)
   const [linkPath, setLinkPath] = useState<string>(AboutMeDataEnglish.linkHTML)
   const [bgColor, setBgcolor] = useState<any>(AboutMeDataEnglish.bgcolorHTML)
@@ -37,11 +33,11 @@ export const AboutMeDesktop = () => {
     <div className="page-wrapper">
       <div className="desktop-wrapper">
         <div className="aboutme-desktop-wrapper">
-          <h3>
-            <h2><SelectLanguage
+          <h2>
+            <span className="aboutme-desktop-title"><SelectLanguage
               textEng={AboutMeDataEnglish.hiEng}
               textSwe={AboutMeDataEnglish.hi}
-            /></h2> <br />
+            /></span> <br /><br />
             <SelectLanguage
               textEng={AboutMeDataEnglish.aboutMeEng}
               textSwe={AboutMeDataEnglish.aboutMe}
@@ -51,8 +47,8 @@ export const AboutMeDesktop = () => {
               textEng={AboutMeDataEnglish.aboutMe2Eng}
               textSwe={AboutMeDataEnglish.aboutMe2}
             />
-          </h3>
-          <img src={headerImg} alt="Profile picture" className="about-me-desktop-img" />
+          </h2>
+          <img src={headerImg} alt="Profile" className="about-me-desktop-img" />
           <div className="about-me-desktop-competence-wrapper" style={{ backgroundColor: bgColor, color: '#ffffff' }}>
             <h3 ><SelectLanguage
               textEng={AboutMeDataEnglish.mainCompetenceEng}

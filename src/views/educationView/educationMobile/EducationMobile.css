@@ -45,6 +45,12 @@
   padding: 0.5rem;
 }
 
+.education-worklife-mobile-category-grades-wrapper {
+  border: #454545 solid 1px;
+  border-radius: 3vw;
+  padding: 3vw;
+}
+
 .course1-mobile {
   border-top: black solid 1px;
   grid-row: 1;
