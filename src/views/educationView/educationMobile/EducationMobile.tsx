@@ -32,6 +32,8 @@ export const EducationMobile = () => {
               textSwe={EducationWorklifeData.arbetsliv}
             /></h2>
             <div className="education-worklife-mobile-category-wrapper">
+
+              {/* Esoft */}
               <div>
                 <h3>{EducationWorklifeData.esoftTitleMobile}</h3>
                 <h4><SelectLanguage
@@ -55,6 +57,32 @@ export const EducationMobile = () => {
 
                 </ul>
               </div>
+
+              {/* Frilans */}
+              <div>
+                <h3><SelectLanguage
+                  textEng={EducationWorklifeData.frilansTitleMobileEng}
+                  textSwe={EducationWorklifeData.frilansTitleMobile}
+                /></h3>
+                <h4><SelectLanguage
+                  textEng={EducationWorklifeData.frilansDescEng}
+                  textSwe={EducationWorklifeData.frilansDesc}
+                /></h4>
+                <h4>{EducationWorklifeData.frilansYears}</h4>
+                <ul>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.frilansLi1Eng}
+                    textSwe={EducationWorklifeData.frilansLi1}
+                  /></li>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.frilansLi2Eng}
+                    textSwe={EducationWorklifeData.frilansLi2}
+                  /></li>
+
+                </ul>
+              </div>
+
+              {/* Casino Cosmopol */}
               <div>
                 <h3>{EducationWorklifeData.casinoCosmopolTitleMobile}</h3>
                 <h4>{EducationWorklifeData.casinoCosmopolDesc}</h4>
@@ -70,6 +98,23 @@ export const EducationMobile = () => {
                   /></li>
                 </ul>
               </div>
+
+              {/* Mattknuten */}
+              <div>
+                <h3>{EducationWorklifeData.mattknutenTitleMobile}</h3>
+                <h4><SelectLanguage
+                  textEng={EducationWorklifeData.mattknutenDescEng}
+                  textSwe={EducationWorklifeData.mattknutenDesc}
+                /></h4>
+                <h4>{EducationWorklifeData.mattknutenYears}</h4>
+                <ul>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.mattknutenLi1Eng}
+                    textSwe={EducationWorklifeData.mattknutenLi1}
+                  /></li>
+                </ul>
+              </div>
+
             </div>
           </div>
           <div className="education-worklife-mobile-education-wrapper">
@@ -132,6 +177,14 @@ export const EducationMobile = () => {
                 <p><SelectLanguage
                   textEng={EducationWorklifeData.studioblueTextEng}
                   textSwe={EducationWorklifeData.studioblueText}
+                /></p>
+              </div>
+              <div>
+                <h3>{EducationWorklifeData.nosnasTitle}</h3>
+                <h4>{EducationWorklifeData.nosnasYears}</h4>
+                <p><SelectLanguage
+                  textEng={EducationWorklifeData.nosnasTextEng}
+                  textSwe={EducationWorklifeData.nosnasText}
                 /></p>
               </div>
             </div>

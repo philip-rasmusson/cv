@@ -87,6 +87,14 @@ export const EducationDesktop = () => {
                   textSwe={EducationWorklifeData.studioblueText}
                 /></p>
               </div>
+              <div>
+                <h3>{EducationWorklifeData.nosnasTitle}</h3>
+                <h4>{EducationWorklifeData.nosnasYears}</h4>
+                <p><SelectLanguage
+                  textEng={EducationWorklifeData.nosnasTextEng}
+                  textSwe={EducationWorklifeData.nosnasText}
+                /></p>
+              </div>
             </div>
           </div>
           <div className="education-worklife-desktop-worklife-wrapper">
@@ -95,8 +103,9 @@ export const EducationDesktop = () => {
               textSwe={EducationWorklifeData.arbetsliv}
             /></h2>
             <div className="education-worklife-desktop-category-wrapper">
+              {/* Esoft */}
               <div>
-                <h3>{EducationWorklifeData.esoftTitleMobile}</h3>
+                <h3>{EducationWorklifeData.esoftTitle}</h3>
                 <h4><SelectLanguage
                   textEng={EducationWorklifeData.esoftDescEng}
                   textSwe={EducationWorklifeData.esoftDesc}
@@ -118,8 +127,34 @@ export const EducationDesktop = () => {
 
                 </ul>
               </div>
+
+              {/* Frilans */}
               <div>
-                <h3>{EducationWorklifeData.casinoCosmopolTitleMobile}</h3>
+                <h3><SelectLanguage
+                  textEng={EducationWorklifeData.frilansTitleEng}
+                  textSwe={EducationWorklifeData.frilansTitle}
+                /></h3>
+                <h4><SelectLanguage
+                  textEng={EducationWorklifeData.frilansDescEng}
+                  textSwe={EducationWorklifeData.frilansDesc}
+                /></h4>
+                <h4>{EducationWorklifeData.frilansYears}</h4>
+                <ul>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.frilansLi1Eng}
+                    textSwe={EducationWorklifeData.frilansLi1}
+                  /></li>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.frilansLi2Eng}
+                    textSwe={EducationWorklifeData.frilansLi2}
+                  /></li>
+
+                </ul>
+              </div>
+
+              {/* Casino Cosmopol */}
+              <div>
+                <h3>{EducationWorklifeData.casinoCosmopolTitle}</h3>
                 <h4>{EducationWorklifeData.casinoCosmopolDesc}</h4>
                 <h4>{EducationWorklifeData.casinoCosmopolYears}</h4>
                 <ul>
@@ -133,6 +168,23 @@ export const EducationDesktop = () => {
                   /></li>
                 </ul>
               </div>
+
+              {/* Mattknuten */}
+              <div>
+                <h3>{EducationWorklifeData.mattknutenTitle}</h3>
+                <h4><SelectLanguage
+                  textEng={EducationWorklifeData.mattknutenDescEng}
+                  textSwe={EducationWorklifeData.mattknutenDesc}
+                /></h4>
+                <h4>{EducationWorklifeData.mattknutenYears}</h4>
+                <ul>
+                  <li><SelectLanguage
+                    textEng={EducationWorklifeData.mattknutenLi1Eng}
+                    textSwe={EducationWorklifeData.mattknutenLi1}
+                  /></li>
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>

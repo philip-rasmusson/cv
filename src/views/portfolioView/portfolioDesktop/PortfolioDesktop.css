@@ -27,3 +27,8 @@
   grid-column: 1/-1;
   align-self: center;
 }
+
+.portfolio-link {
+  text-decoration: underline;
+  margin-top: 1rem;
+}
