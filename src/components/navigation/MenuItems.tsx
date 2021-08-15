@@ -10,14 +10,17 @@ export const MenuItems = () => {
   const [language] = useContext(LanguageContext)
   const [aboutMe, setAboutMe] = useState(menuItemsEnglish.aboutMe)
   const [education, setEducation] = useState(menuItemsEnglish.educationWorklife)
+  const [projects, setProjects] = useState(menuItemsEnglish.projects)
 
   const checkLanguage = () => {
     if (language === 'english') {
       setAboutMe(menuItemsEnglish.aboutMeEng)
       setEducation(menuItemsEnglish.educationWorklifeEng)
+      setProjects(menuItemsEnglish.projectsEng)
     } else {
       setAboutMe(menuItemsEnglish.aboutMe)
       setEducation(menuItemsEnglish.educationWorklife)
+      setProjects(menuItemsEnglish.projects)
     }
   }
 
@@ -37,7 +40,7 @@ export const MenuItems = () => {
         <>
           <MenuItem
             link={RoutingPath.portfoliView}
-            title={menuItemsEnglish.portfolio}
+            title={projects}
           />
         </>
         <>

@@ -1,12 +1,14 @@
 const aboutMe = 'om mig'
 const aboutMeEng = 'about me'
-const portfolio = 'portfolio'
+const projects = 'projekt'
+const projectsEng = 'projects'
 const educationWorklifeEng = 'education & worklife'
 const educationWorklife = 'utbildning och arbetsliv'
 
 export const menuItemsEnglish = {
   aboutMeEng,
-  portfolio,
+  projects,
+  projectsEng,
   educationWorklifeEng,
   aboutMe,
   educationWorklife

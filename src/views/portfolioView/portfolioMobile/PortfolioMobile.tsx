@@ -9,16 +9,23 @@ export const PortfolioMobile = () => {
       <div className="mobile-wrapper">
         <div className="portfolio-mobile-wrapper">
           <h1 className="portfolio-mobile-title">
-            {PortfolioData.title}
+            <SelectLanguage
+              textEng={PortfolioData.titleEng}
+              textSwe={PortfolioData.title}
+            />
           </h1>
-          <div onClick={() => window.open('https://etolog.se/')}>
+          <div>
             <h3>{PortfolioData.etologTitle}</h3>
             <p><SelectLanguage
               textEng={PortfolioData.etologDescEng}
               textSwe={PortfolioData.etologDesc}
             /></p>
+            <p onClick={() => window.open('https://etolog.se/')} className="portfolio-link"><SelectLanguage
+              textEng={PortfolioData.linkTextEng}
+              textSwe={PortfolioData.linkText}
+            /></p>
           </div>
-          <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
+          {/* <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
             <h3>{PortfolioData.coffeeTitle}</h3>
             <p><SelectLanguage
               textEng={PortfolioData.coffeeDescEng}
@@ -44,7 +51,7 @@ export const PortfolioMobile = () => {
               textEng={PortfolioData.artDescEng}
               textSwe={PortfolioData.artDesc}
             /></p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
-const title = 'portfolio'
+const title = 'projekt'
+const titleEng = 'projects'
 
 const etologTitle = 'ETOLOG.SE'
 const etologDesc = 'Designade och byggde på egen hand en webbapplikation i ReactJS, MongoDB och NodeJS, med versionhantering via Github. Backend styrs av en adminpanel med inlogg där man kan lägga till, ta bort och redigera etologer.'
-const etologDescEng = 'Designed and built this webapplication on my own in ReactJS, MongoDB and NodeJS, with version management in Github. Back end is controlled by an adminpanel with sign a in-function where the user can add, remove and edit etologs.'
+const etologDescEng = 'Designed and created this webapplication on my own in ReactJS, MongoDB and NodeJS, with version management in Github. Back end is controlled by an adminpanel with sign a in-function where the user can add, remove and edit etologs.'
 
 const coffeeTitle = 'COFFEE MOCK-UP'
 const coffeeDesc = 'En egendesignad, fullt responsiv webbsida som jag främst använder för att testa funktioner och tricks i HTML, CSS och JavaScript. Uppdateras kontinuerligt.'
@@ -18,8 +19,12 @@ const artTitleEng = 'ARTWORK'
 const artDesc = 'Ett urval av tavlor och illustrationer som jag har gjort.'
 const artDescEng = 'A selection of paintings and illustrations made by me.'
 
+const linkText = 'Besök sidan'
+const linkTextEng = 'Visit page'
+
 export const PortfolioData = {
   title,
+  titleEng,
   etologTitle,
   etologDesc,
   etologDescEng,
@@ -33,5 +38,7 @@ export const PortfolioData = {
   artTitle,
   artTitleEng,
   artDesc,
-  artDescEng
+  artDescEng,
+  linkText,
+  linkTextEng,
 }

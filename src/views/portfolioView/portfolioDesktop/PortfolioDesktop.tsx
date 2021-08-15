@@ -10,7 +10,10 @@ export const PortfolioDesktop = () => {
       <div className="desktop-wrapper">
         <div className="portfolio-desktop-wrapper">
           <h1 className="portfolio-desktop-title">
-            {PortfolioData.title}
+            <SelectLanguage
+              textEng={PortfolioData.titleEng}
+              textSwe={PortfolioData.title}
+            />
           </h1>
           <div>
             <h3>{PortfolioData.etologTitle}</h3>
@@ -20,7 +23,10 @@ export const PortfolioDesktop = () => {
                 textSwe={PortfolioData.etologDesc}
               />
             </p>
-            <p onClick={() => window.open('https://etolog.se/')} className="portfolio-link">Besök sidan</p>
+            <p onClick={() => window.open('https://etolog.se/')} className="portfolio-link"><SelectLanguage
+              textEng={PortfolioData.linkTextEng}
+              textSwe={PortfolioData.linkText}
+            /></p>
           </div>
           {/* <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
             <h3>{PortfolioData.coffeeTitle}</h3>

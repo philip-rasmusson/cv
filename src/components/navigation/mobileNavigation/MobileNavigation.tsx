@@ -42,7 +42,10 @@ export const MobileNavigation = () => {
         <div className="navbar-mobile-social-media-wrapper">{SocialMediaIcons()}</div>
         <ul className='menu-items'>
           <li onClick={() => menuLink(RoutingPath.aboutMeView)}><SelectLanguage textEng={menuItemsEnglish.aboutMeEng} textSwe={menuItemsEnglish.aboutMe} /></li>
-          <li onClick={() => menuLink(RoutingPath.portfoliView)}>{menuItemsEnglish.portfolio}</li>
+          <li onClick={() => menuLink(RoutingPath.portfoliView)}><SelectLanguage
+            textEng={menuItemsEnglish.projectsEng}
+            textSwe={menuItemsEnglish.projects}
+          /></li>
           <li onClick={() => menuLink(RoutingPath.educationView)}><SelectLanguage textEng={menuItemsEnglish.educationWorklifeEng} textSwe={menuItemsEnglish.educationWorklife} /></li>
         </ul>
       </div>
