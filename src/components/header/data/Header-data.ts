@@ -1,6 +1,6 @@
 const titleName = 'Philip Rasmusson'
-const titleDescEng = 'frontend developer'
-const titleDesc = 'frontendutvecklare'
+const titleDescEng = 'frontend | fullstack'
+const titleDesc = 'frontend | fullstack'
 
 export const HeaderData = {
   titleName,
