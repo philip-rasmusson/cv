@@ -25,33 +25,24 @@ export const PortfolioMobile = () => {
               textSwe={PortfolioData.linkText}
             /></p>
           </div>
-          {/* <div onClick={() => window.open('https://philip-rasmusson.github.io/coffee-company/')}>
-            <h3>{PortfolioData.coffeeTitle}</h3>
-            <p><SelectLanguage
-              textEng={PortfolioData.coffeeDescEng}
-              textSwe={PortfolioData.coffeeDesc}
-            /></p>
+          <div>
+            <h3>{PortfolioData.everyaspectTitle}</h3>
+            <p>
+              <SelectLanguage
+                textEng={PortfolioData.everyaspectDescEng}
+                textSwe={PortfolioData.everyaspectDesc}
+              />
+            </p>
           </div>
-          <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719573144867')}>
-            <h3><SelectLanguage
-              textEng={PortfolioData.fotoTitleEng}
-              textSwe={PortfolioData.fotoTitle}
-            /></h3>
-            <p><SelectLanguage
-              textEng={PortfolioData.fotoDescEng}
-              textSwe={PortfolioData.fotoDesc}
-            /></p>
+          <div>
+            <h3>{PortfolioData.codicNinjaTitle}</h3>
+            <p>
+              <SelectLanguage
+                textEng={PortfolioData.codicNinjaDescEng}
+                textSwe={PortfolioData.codicNinjaDesc}
+              />
+            </p>
           </div>
-          <div onClick={() => window.open('https://www.flickr.com/photos/192429503@N08/albums/72157719560435103')}>
-            <h3><SelectLanguage
-              textEng={PortfolioData.artTitleEng}
-              textSwe={PortfolioData.artTitle}
-            /></h3>
-            <p><SelectLanguage
-              textEng={PortfolioData.artDescEng}
-              textSwe={PortfolioData.artDesc}
-            /></p>
-          </div> */}
         </div>
       </div>
     </div>
