@@ -34,7 +34,7 @@ const casinoCosmopolLi2Eng = `Focus on ability to handle stress and customer rel
 
 const esoftTitle = `Esoft Systems AB, Göteborg`
 const esoftTitleMobile = `Esoft Systems AB`
-const esoftYears = `2007 - 2021`
+const esoftYears = `2009 - 2021`
 const esoftDesc = `FOTOGRAF/UTBILDARE`
 const esoftDescEng = `PHOTOGRAPHER/EDUCATOR`
 const esoftLi1 = `Ansvar för utbildning av nya fotografer`
@@ -48,7 +48,7 @@ const frilansTitle = `Eget företag, Göteborg`
 const frilansTitleEng = `Own company |  2007 - 2021`
 const frilansTitleMobile = `Eget företag`
 const frilansTitleMobileEng = `Own company`
-const frilansYears = `2007 - 2021`
+const frilansYears = `2009 - 2021`
 const frilansDesc = `FOTOGRAF`
 const frilansDescEng = `PHOTOGRAPHER`
 const frilansLi1 = `Fotografering och efterföljande bildredigering av bröllop, sportevenemang, mingel, personporträtt, mm`
@@ -59,7 +59,7 @@ const frilansLi2Eng = `Responsible for own company`
 
 const mattknutenTitle = `Mattknuten, Stenungsund`
 const mattknutenTitleMobile = `Mattknuten`
-const mattknutenYears = `2007 - 2021`
+const mattknutenYears = `2003 - 2004`
 const mattknutenDesc = `FÖRSÄLJNING`
 const mattknutenDescEng = `SALES`
 const mattknutenLi1 = `Vanligt förekommande uppgifter som butiksbiträde inom detaljhandeln`

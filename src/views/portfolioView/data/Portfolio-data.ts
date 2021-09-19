@@ -1,7 +1,7 @@
 const title = 'projekt'
 const titleEng = 'projects'
 
-const etologTitle = 'ETOLOG.SE'
+const etologTitle = 'ETOLOG'
 const etologDesc = 'Designade och byggde på egen hand en webbapplikation i ReactJS, MongoDB och NodeJS, med versionhantering via Github. Backend styrs av en adminpanel med inlogg där man kan lägga till, ta bort och redigera etologer.'
 const etologDescEng = 'Designed and created this webapplication on my own in ReactJS, MongoDB and NodeJS, with version management in Github. Back end is controlled by an adminpanel with sign a in-function where the user can add, remove and edit etologs.'
 

@@ -20,7 +20,7 @@ export const PortfolioMobile = () => {
               textEng={PortfolioData.etologDescEng}
               textSwe={PortfolioData.etologDesc}
             /></p>
-            <p onClick={() => window.open('https://etolog.se/')} className="portfolio-link"><SelectLanguage
+            <p onClick={() => window.open('https://philip-rasmusson.github.io/etolog-se/')} className="portfolio-link"><SelectLanguage
               textEng={PortfolioData.linkTextEng}
               textSwe={PortfolioData.linkText}
             /></p>
